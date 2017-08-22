@@ -1,2 +1,0 @@
-# sumanas
-Sumanas Technoligies
