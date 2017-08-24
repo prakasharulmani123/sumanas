@@ -9,6 +9,9 @@ body {
 	line-height:22px;
 	font-family: 'Montserrat', sans-serif;
 }
+#main{
+	overflow: hidden!important;
+}
 img {
 	max-width:100%;
 	height:auto
