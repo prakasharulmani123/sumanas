@@ -29,12 +29,13 @@
     </head>
     <body class="innerpage">
         <?php
-        include 'database_connection.php';
         include 'header.php';
-        $name = $email = $phone = $subject = $message = $query = "";
+        $name = $email = $phone = $subject = $message = "";
         $nameErr = $emailErr = $phoneErr = $subjectErr = $messageErr = "";
+        $error = false;
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (empty($_POST["name"])) {
+                $error = true;
                 $nameErr = "Name is required";
             } else {
                 $name = test_input($_POST["name"]);
@@ -44,6 +45,7 @@
             }
 
             if (empty($_POST["email"])) {
+                $error = true;
                 $emailErr = "Email is required";
             } else {
                 $email = test_input($_POST["email"]);
@@ -53,29 +55,48 @@
             }
 
             if (empty($_POST["phone"])) {
+                $error = true;
                 $phoneErr = "Phone Number is required";
             } else {
                 $phone = test_input($_POST["phone"]);
             }
 
             if (empty($_POST["subject"])) {
+                $error = true;
                 $subjectErr = "Subject is required";
             } else {
                 $subject = test_input($_POST["subject"]);
             }
 
             if (empty($_POST["message"])) {
+                $error = true;
                 $messageErr = "Message is required";
             } else {
                 $message = test_input($_POST["message"]);
             }
+
+            if (!$error) {
+                if (isset($_POST['email'])) {
+                    $ToEmail = 'roobini@arkinfotec.com';
+                    $EmailSubject = 'Site contact form';
+                    $mailheader = "From: " . $email . "\r\n";
+                    $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
+                    $MESSAGE_BODY = "Name: " . $_POST['name'] . "";
+                    $MESSAGE_BODY .= "Email: " . $email . "";
+                    $MESSAGE_BODY .= "Phone: " . $phone . "";
+                    $MESSAGE_BODY .= "Subject: " . $subject . "";
+                    $MESSAGE_BODY .= "Message: " . nl2br($message) . "";
+                    mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
+                }
+            }
         }
-        $query = "INSERT INTO contactus (name,email,phone,subject,message) VALUES ($name,$email,$phone,$subject,$message)";
-//        if ($conn->query($query) === TRUE) {
-//            echo "New record created successfully";
-//        } else {
-//            echo "Error: " . $query . "<br>" . $conn->error;
-//        }
+
+        function test_input($data) {
+            $data = trim($data);
+            $data = stripslashes($data);
+            $data = htmlspecialchars($data);
+            return $data;
+        }
         ?>
         <div class="inner-page-heading ">
             <div class="container-fluid">
@@ -97,15 +118,15 @@
                     <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6 contact-left"> <img src="images/contactus.png"  alt=""></div>
 
                     <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 contact-right">
-                        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                        <form method="post" name="myform" action="contactus.php">
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <input name="<?php echo $name ?>" type="text" class="form-control" placeholder="Name">
+                                        <input name="name" value="<?php echo $name ?>" type="text" class="form-control" placeholder="Name">
                                         <?php echo $nameErr; ?>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <input name="<?php echo $mail ?>" type="text" class="form-control" placeholder="Email">
+                                        <input name="email" value="<?php echo $email ?>" type="text" class="form-control" placeholder="Email">
                                         <?php echo $emailErr; ?>
                                     </div>
                                 </div>
@@ -113,11 +134,11 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <input name="<?php echo $phone ?>" type="text" class="form-control" placeholder="Phone">
+                                        <input name="phone" value="<?php echo $phone ?>" type="text" class="form-control" placeholder="Phone">
                                         <?php echo $phoneErr; ?>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <input name="<?php echo $subject ?>" type="text" class="form-control" placeholder="Subject">
+                                        <input name="subject" value="<?php echo $subject ?>" type="text" class="form-control" placeholder="Subject">
                                         <?php echo $subjectErr; ?>
                                     </div>
                                 </div>
@@ -125,7 +146,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <textarea name="<?php echo $message ?>" cols="" rows="" class="form-control msg-filed" placeholder="Message"></textarea>
+                                        <textarea name="message" value="<?php echo $message ?>" type="text" cols="" rows="" class="form-control msg-filed" placeholder="Message"></textarea>
                                         <?php echo $messageErr; ?>
                                     </div>
                                 </div>
@@ -133,7 +154,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                        <button class="btn submit-btn" type="submit" value="submit"> Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i> </button>
+                                        <button class="btn submit-btn" type="submit" name="submit" value="submit"> Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i> </button>
                                     </div>
                                 </div>
                             </div>

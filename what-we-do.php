@@ -33,11 +33,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h1> What We Do? <br/>
+                        <h1> What We Do <br/>
                         </h1>
                         <span> You get more than just what you want!
-                            And this <br/>
-                            little conversation will tell you more about how we work &  why the clients love us!</span> </div>
+                        </span> </div>
                 </div>
             </div>
         </div>
@@ -46,7 +45,8 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class=" converstion-bg">
-                            <h2> little conversation </h2>
+                            <h2> This
+                                little conversation will tell you more about how we work &  why the clients love us! </h2>
                             <div id="demo-chat-body" class="collapse in">
                                 <div class="nano has-scrollbar" style="height:auto">
                                     <div class="nano-content pad-all" tabindex="0" style="right: -17px;">
@@ -200,10 +200,8 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 secondary-heading">
-                            <h2> What We offer? </h2>
-                            <span> You get more than just what you want!
-                                And this <br/>
-                                little conversation will tell you more about how we work &  why the clients love us!</span> </div>
+                            <h2> What We offer </h2>
+                             </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="servicebg1">
                                 <p> <a href="<?php echo "ui-ux-design.php"; ?>"> <img src="images/service-icon1.png"  alt=""> </a> </p>

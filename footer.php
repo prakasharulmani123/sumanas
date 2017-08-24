@@ -9,7 +9,6 @@
                 <li><a href="<?php echo "who-we-are.php"; ?>"> Who we are </a></li>
                 <li><a href="<?php echo "what-we-do.php"; ?>">What we do </a></li>
                 <li><a href="#"> Portfolio </a></li>
-                <li><a href="#"> Testimonials </a></li>
                 <li><a href="#"> Blog </a></li>
                 <li><a href="<?php echo "careers.php"; ?>">Careers </a></li>
                 <li><a href="<?php echo "contactus.php"; ?>"> Contact</a></li>

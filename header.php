@@ -28,7 +28,7 @@
                         <li>   <a href="#">Our Works</a></li> 
                         <li>  <a href="<?php echo "products.php"; ?>"> Products</a></li> 
                         <li>   <a href="#">Platform</a></li>
-                        <li> <a href="#">Testimonials</a> </li>
+                        <li>   <a href="#">Technologies</a></li>
                         <li> <a href="#">Blog</a> </li>
                         <li> <a href="<?php echo "careers.php"; ?>">Careers</a> </li>
                         <li> <a href="<?php echo "contactus.php"; ?>">Contact </a> </li>

@@ -73,32 +73,43 @@
                                     <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
                                     <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
                                     <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                                    <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
                                 </ol>
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">
                                     <div class="item">
                                         <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
                                         <blockquote>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                            <p> <strong> -Client Name </strong></p>
+                                            <p>I have been working with Raj and his team for more than 3 years now. We have worked on several very complex projects which had strict deadlines.I am happy to say that the team has always delivered the job on time and moreimportantly with high quality and professionalism.</p>
+                                            <p> <strong> -Martine Breton </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="item">
                                         <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
                                         <blockquote>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                            <p> I have worked with Raj on multiple projects, and I have received excellent quality work every time. Communication is always excellent, and I have never gone more than a day or two without a response. Reciprocation is always at pace.</p>
+                                            <p> <strong> - CJ lewis </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="active item">
                                         <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
                                         <blockquote>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                            <p> As a web development company we have worked with a number of different local and overseas developers and development companies. Raj and his team are amongst the very best and have consistently provided quality work!</p>
+                                            <p> <strong> -Jessica Murphy </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="item">
                                         <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
                                         <blockquote>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                            <p>Great place to propel your ideas. I have always received exceptional quality of work with faster turn around.The work dedication is great, and they are always up with instant fixes! Loved working with them.</p>
+                                            <p> <strong> -Tahir </strong></p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="item">
+                                        <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
+                                        <blockquote>
+                                            <p>Sumanas Technologies have an experienced team of developers and designers.  We have used them for a range of services including laravel application development, API and middleware development, front end UX design and development, Wordpress and more!</p>
+                                            <p> <strong> -Daniel </strong></p>
                                         </blockquote>
                                     </div>
                                 </div>
@@ -111,7 +122,7 @@
                 <div class="container-fluid">
                     <h4> LETS GET STARTED </h4>
                     <p> <span> We help your business grow. We mean it. </span> </p>
-                    <p> <a href="#" class="btn request-quotebtn"> <i class="fa fa-paper-plane" aria-hidden="true"></i> Request a Quote </a> </p>
+                    <p> <a href="contactus.php" class="btn request-quotebtn"> <i class="fa fa-paper-plane" aria-hidden="true"></i> Get In Touch </a> </p>
                 </div>
             </div>
         </div>
