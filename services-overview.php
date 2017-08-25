@@ -206,11 +206,11 @@ include 'head.php';
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="servicebg1 servicebg4">
-                                <p> <a href="<?php echo "mobile-app.php"; ?>"> <img src="images/service-icon4.png"  alt=""> </a> </p>
-                                <p class="service-name"> <a href="<?php echo "mobile-app.php"; ?>">Mobile App <br/>
+                                <p> <a href="<?php echo "mobile-app-development.php"; ?>"> <img src="images/service-icon4.png"  alt=""> </a> </p>
+                                <p class="service-name"> <a href="<?php echo "mobile-app-development.php"; ?>">Mobile App <br/>
                                         Development</a></p>
                                 <p class="service-txt"> Find the finest of services in mobile application development, compatible with IOS, Android and windows. All that you wanted is at the tap of your finger.</p>
-                                <p class="readmore-icon"> <a href="<?php echo "mobile-app.php"; ?>"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a> </p>
+                                <p class="readmore-icon"> <a href="<?php echo "mobile-app-development.php"; ?>"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a> </p>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,7 @@
-<?php include 'head.php'; ?>
+<?php
+$title = "Get an Instant Website Marketing Quote";
+include 'head.php';
+?>
 <body class="innerpage">
     <?php
     include 'header.php';
@@ -91,7 +94,7 @@
                 <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6 contact-left"> <img src="images/contactus.png"  alt=""></div>
 
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 contact-right">
-                    <form method="post" name="myform" action="contactus.php">
+                    <form method="post" name="myform" action="contact-sumanas.php">
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">

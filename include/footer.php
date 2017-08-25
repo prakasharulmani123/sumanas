@@ -11,7 +11,7 @@
                 <li><a href="#"> Portfolio </a></li>
                 <li><a href="#"> Blog </a></li>
                 <li><a href="<?php echo "careers.php"; ?>">Careers </a></li>
-                <li><a href="<?php echo "contactus.php"; ?>"> Contact</a></li>
+                <li><a href="<?php echo "contact-sumanas.php"; ?>"> Contact</a></li>
             </ul>
         </div>
         <div class="row">

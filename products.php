@@ -1,4 +1,7 @@
-<?php include 'head.php'; ?>
+<?php
+$title = "Sumanas Tech Products";
+include 'head.php';
+?>
 <body class="innerpage">
     <?php include 'header.php'; ?>
     <div class="inner-page-heading ">
@@ -73,7 +76,7 @@
             <div class="container-fluid">
                 <h4> LETS GET STARTED </h4>
                 <p> <span> We help your business grow. We mean it. </span> </p>
-                <p> <a href="contactus.php" class="btn request-quotebtn"> <i class="fa fa-paper-plane" aria-hidden="true"></i> Get In Touch </a> </p>
+                <p> <a href="contact-sumanas.php" class="btn request-quotebtn"> <i class="fa fa-paper-plane" aria-hidden="true"></i> Get In Touch </a> </p>
             </div>
         </div>
     </div>

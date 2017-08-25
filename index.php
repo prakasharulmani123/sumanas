@@ -38,7 +38,7 @@ include 'head.php';
                             <h3> MOBILE App Development </h3>
                             <p> Find the finest of services in mobile application development, compatible with IOS, Android
                                 and windows. All that you wanted is at the tap of your finger</p>
-                            <p><a href="<?php echo "mobile-app.php"; ?>" class="readmore1"> Read More... </a></p>
+                            <p><a href="<?php echo "mobile-app-development.php"; ?>" class="readmore1"> Read More... </a></p>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-lg-4 col-lg-4  sevice-part ">
                             <div class="row">

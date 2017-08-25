@@ -21,7 +21,7 @@
                                 <li><a href="<?php echo 'ui-ux-design.php'; ?>">UI / UX Design</a></li>
                                 <li><a href="<?php echo "website-development.php"; ?>">Web Development</a></li>
                                 <li> <a href="<?php echo "digital-marketing.php"; ?>">Digital Marketing</a> </li>
-                                <li> <a href="<?php echo "mobile-app.php"; ?>">Mobile App Development</a> </li>
+                                <li> <a href="<?php echo "mobile-app-development.php"; ?>">Mobile App Development</a> </li>
                             </ul>
                         </li>
 
@@ -31,7 +31,7 @@
                         <li>   <a href="#">Technologies</a></li>
                         <li> <a href="#">Blog</a> </li>
                         <li> <a href="<?php echo "careers.php"; ?>">Careers</a> </li>
-                        <li> <a href="<?php echo "contactus.php"; ?>">Contact </a> </li>
+                        <li> <a href="<?php echo "contact-sumanas.php"; ?>">Contact </a> </li>
 
                     </ul>
                 </nav>

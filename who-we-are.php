@@ -52,7 +52,7 @@ include 'head.php';
                             New heights <br/>
                             with us? ! <br/>
                         </p>
-                        <p> <a href="contactus.php" class=" btn btn1"> Get In Touch <i class="fa fa-paper-plane" aria-hidden="true"></i> </a></p>
+                        <p> <a href="contact-sumanas.php" class=" btn btn1"> Get In Touch <i class="fa fa-paper-plane" aria-hidden="true"></i> </a></p>
                     </div>
                 </div>
             </div>
