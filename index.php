@@ -7,7 +7,7 @@ include 'head.php';
     <div id="fullpage">
         <div class="section " id="section0">
             <div class="section-arrow1"><a href="#" class="arrow2 bounce moveDown"> </a></div>
-            <div class="slider-cont"><img src="images/newslider.png" alt=""></div>
+            <div class="slider-cont"><img src="images/newslider.png" alt="Digital Marketing Agency in India"></div>
         </div>
         <div class="section section1" id="section1">
             <div class="container-fluid">

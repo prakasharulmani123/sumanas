@@ -1,6 +1,6 @@
 <header>
     <div class="container-fluid">
-        <div class="logo"> <a href="<?php echo "index.php"; ?>"><img src="images/logo.png"  alt=""></a></div>
+        <div class="logo"> <a href="/"><img src="images/logo.png"  alt="Sumanas Technologies"></a></div>
     </div>
     <div class="menu-right"> <a for="drawer-toggle" href="javascript:void(0)"  class="hamburger drawer-toggle" id="hamburger"></a> </div>
 </header>
