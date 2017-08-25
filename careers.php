@@ -49,11 +49,7 @@
             </div>
         </div>
     </div>
-    <footer class="inner-footer">
-        <div class="section section10" id="section10">
-            <?php include 'footer.php'; ?>
-        </div>
-    </footer>
+    <?php include 'include/footer_inner.php' ?>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -376,8 +372,8 @@
                 $error = false;
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     if ($_POST["position"]) {
-                            $position = test_input($_POST["position"]);
-                        }
+                        $position = test_input($_POST["position"]);
+                    }
                     if (empty($_POST["name"])) {
                         $error = true;
                         $nameErr = "This field is required";
