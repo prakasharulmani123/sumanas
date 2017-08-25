@@ -107,42 +107,42 @@ include 'head.php';
                     <div class="row">
                         <div class="owl-carousel hover-demo " id="clients-carousel">
                             <div class="client-cont">
-                                <p><img src="images/Martine-Breton.jpg" alt=""></p>
+                                <p><img src="images/Martine-Breton.jpg" alt="Martine Breton"></p>
                                 <p><a href="#"> Martine Breton </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/Martine-Breton.jpg" alt=""></p>
+                                    <p><img src="images/Martine-Breton.jpg" alt="Martine Breton"></p>
                                     <p> I have been working with Raj and his team for more than 3 years now. We have worked on several very complex projects which had strict deadlines.I am happy to say that the team has always delivered the job on time and moreimportantly with high quality and professionalism. </p>
                                 </div>
                             </div>
                             <div class="client-cont">
-                                <p><img src="images/client.jpg" alt=""></p>
+                                <p><img src="images/client.jpg" alt="CJ lewis"></p>
                                 <p><a href="#"> CJ lewis </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/client.jpg" alt=""></p>
+                                    <p><img src="images/client.jpg" alt="CJ lewis"></p>
                                     <p> I have worked with Raj on multiple projects, and I have received excellent quality work every time. Communication is always excellent, and I have never gone more than a day or two without a response. Reciprocation is always at pace. </p>
                                 </div>
                             </div>
                             <div class="client-cont">
-                                <p><img src="images/Jeesica.jpg" alt=""></p>
+                                <p><img src="images/Jeesica.jpg" alt="Jessica Murphy"></p>
                                 <p><a href="#"> Jessica Murphy </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/Jeesica.jpg" alt=""></p>
+                                    <p><img src="images/Jeesica.jpg" alt="Jessica Murphy"></p>
                                     <p>  As a web development company we have worked with a number of different local and overseas developers and development companies. Raj and his team are amongst the very best and have consistently provided quality work!   </p>
                                 </div>
                             </div>
                             <div class="client-cont">
-                                <p><img src="images/Tahir.jpg" alt=""></p>
+                                <p><img src="images/Tahir.jpg" alt="Tahir"></p>
                                 <p><a href="#"> Tahir </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/Tahir.jpg" alt=""></p>
+                                    <p><img src="images/Tahir.jpg" alt="Tahir"></p>
                                     <p> Great place to propel your ideas. I have always received exceptional quality of work with faster turn around.The work dedication is great, and they are always up with instant fixes! Loved working with them. </p>
                                 </div>
                             </div>
                             <div class="client-cont">
-                                <p><img src="images/Daniel.jpg" alt=""></p>
+                                <p><img src="images/Daniel.jpg" alt="Daniel"></p>
                                 <p><a href="#"> Daniel </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/Daniel.jpg" alt=""></p>
+                                    <p><img src="images/Daniel.jpg" alt="Daniel"></p>
                                     <p> Sumanas Technologies have an experienced team of developers and designers.  We have used them for a range of services including laravel application development, API and middleware development, front end UX design and development, Wordpress and more! </p>
                                 </div>
                             </div>
@@ -231,7 +231,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> RAJENDRAN <br/>
                                         <span> Director/Founder </span></div>
-                                    <img src="images/team1.jpg" alt=""></div>
+                                    <img src="images/team1.jpg" alt="RAJENDRAN"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -244,7 +244,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> GAYATRI <br/>
                                         <span> Director-Operations </span></div>
-                                    <img src="images/team2.jpg" alt=""></div>
+                                    <img src="images/team2.jpg" alt="GAYATRI"></div>
                             </div>
                             <div class="team-cont">
                                 <div class="team">
@@ -259,7 +259,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> ARIVU <br/>
                                         <span> Tech Lead </span></div>
-                                    <img src="images/team1.jpg" alt=""></div>
+                                    <img src="images/team1.jpg" alt="ARIVU"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -272,7 +272,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> NADESH <br/>
                                         <span> Senior PHP Developer </span></div>
-                                    <img src="images/team1.jpg" alt=""></div>
+                                    <img src="images/team1.jpg" alt="NADESH"></div>
                             </div>
                             <div class="team-cont">
                                 <div class="team">
@@ -287,7 +287,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> PRAKASH <br/>
                                         <span> Senior PHP Developer </span></div>
-                                    <img src="images/team1.jpg" alt=""></div>
+                                    <img src="images/team1.jpg" alt="PRAKASH"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -301,7 +301,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> VASANTH <br/>
                                         <span> Senior PHP Developer </span></div>
-                                    <img src="images/team1.jpg" alt=""></div>
+                                    <img src="images/team1.jpg" alt="VASANTH"></div>
                             </div>
                             <div class="team-cont">
                                 <div class="team">
@@ -316,7 +316,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> MARI <br/>
                                         <span> Senior UI/UX Designer </span></div>
-                                    <img src="images/team1.jpg" alt=""></div>
+                                    <img src="images/team1.jpg" alt="MARI"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -329,7 +329,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> UDHAYA <br/>
                                         <span> Senior Android Developer </span></div>
-                                    <img src="images/team2.jpg" alt=""></div>
+                                    <img src="images/team2.jpg" alt="UDHAYA"></div>
                             </div>
                             <div class="team-cont">
                                 <div class="team">
@@ -344,7 +344,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> SHAMIR <br/>
                                         <span> Senior SEO Analyst </span></div>
-                                    <img src="images/team1.jpg" alt=""></div>
+                                    <img src="images/team1.jpg" alt="SHAMIR"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -357,7 +357,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> NACHI <br/>
                                         <span> PHP Developer </span></div>
-                                    <img src="images/team1.jpg" alt=""></div>
+                                    <img src="images/team1.jpg" alt="NACHI"></div>
                             </div>
                         </div>
                     </div>

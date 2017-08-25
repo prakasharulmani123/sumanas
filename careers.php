@@ -30,15 +30,15 @@ include 'head.php';
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 job1 floating buttons">
                         <div class="job1-cont"> <span class="job-count"> 1 </span> <a href="" class="" data-toggle="modal" data-target="#myModal">UI/UX DESIGNERS</a> </div>
-                        <div class="job1-outter"> <img src="images/flame.png" alt=""></div>
+                        <div class="job1-outter"> <img src="images/flame.png" alt="UI/UX DESIGNERS"></div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 job1 job2 floating2">
                         <div class="job1-cont"> <span class="job-count"> 1 </span> <a href="" data-toggle="modal" data-target="#myModal2">PHP DEVELOPER</a> </div>
-                        <div class="job1-outter"> <img src="images/flame.png" alt=""></div>
+                        <div class="job1-outter"> <img src="images/flame.png" alt="PHP DEVELOPER"></div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 job1 job3 floating">
                         <div class="job1-cont"> <span class="job-count"> 1 </span> <a href="" data-toggle="modal" data-target="#myModal3"> HR GENERALIST </a> </div>
-                        <div class="job1-outter"> <img src="images/flame.png" alt=""></div>
+                        <div class="job1-outter"> <img src="images/flame.png" alt="HR GENERALIST"></div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <img src="images/join.png" alt=""></div>
                 </div>
@@ -129,7 +129,7 @@ include 'head.php';
                             move_uploaded_file($file_tmp, $file);
                             $success = "file uploaded successfully";
                         }
-                        if (!$error && isset($_POST['submit'])) {
+                        if (!$error && isset($_POST['submit']) && $position == 'UI/UX Designer') {
                             if (isset($_POST['email'])) {
                                 $ToEmail = 'roobini@arkinfotec.com';
                                 $EmailSubject = 'Site contact form';
@@ -154,7 +154,7 @@ include 'head.php';
                         return $data;
                     }
                     ?>
-                    <form method="post" name="myform" enctype="multipart/form-data" action="careers_submitform.php">
+                    <form method="post" name="myform" enctype="multipart/form-data" action="careers.php">
                         <div class="row">
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
@@ -280,20 +280,20 @@ include 'head.php';
                             move_uploaded_file($file_tmp, $file);
                             $success = "file uploaded successfully";
                         }
-                        if (!$error && isset($_POST['submit'])) {
+                        if (!$error && isset($_POST['submit']) && $position == 'PHP Developer') {
                             if (isset($_POST['email'])) {
                                 $ToEmail = 'roobini@arkinfotec.com';
-                                $EmailSubject = 'Site contact form';
-                                $mailheader = "From: " . $email . "\r\n";
-                                $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
-                                $MESSAGE_BODY = "Position: " . $position . "";
-                                $MESSAGE_BODY = "Name: " . $name . "";
-                                $MESSAGE_BODY .= "Email: " . $email . "";
-                                $MESSAGE_BODY .= "Phone: " . $phone . "";
-                                $MESSAGE_BODY .= "How did you hear about us: " . $source_to_find . "";
-                                $MESSAGE_BODY .= "Cover Letter: " . nl2br($cover_letter) . "";
-                                $MESSAGE_BODY .= "File: " . $file . "";
-                                mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
+                                $Email = 'Site contact form';
+                                $mailhead = "From: " . $email . "\r\n";
+                                $mailhead .= "Content-type: text/html; charset=iso-8859-1\r\n";
+                                $MESSAGE = "Position: " . $position . "";
+                                $MESSAGE = "Name: " . $name . "";
+                                $MESSAGE .= "Email: " . $email . "";
+                                $MESSAGE .= "Phone: " . $phone . "";
+                                $MESSAGE .= "How did you hear about us: " . $source_to_find . "";
+                                $MESSAGE .= "Cover Letter: " . nl2br($cover_letter) . "";
+                                $MESSAGE .= "File: " . $file . "";
+                                mail($ToEmail, $Email, $MESSAGE, $mailhead);
                             }
                         }
                     }
@@ -431,7 +431,7 @@ include 'head.php';
                         move_uploaded_file($file_tmp, $file);
                         $success = "file uploaded successfully";
                     }
-                    if (!$error && isset($_POST['submit'])) {
+                    if (!$error && isset($_POST['submit']) && $position == 'HR Generalist') {
                         if (isset($_POST['email'])) {
                             $ToEmail = 'roobini@arkinfotec.com';
                             $EmailSubject = 'Site contact form';
@@ -456,7 +456,7 @@ include 'head.php';
                     return $data;
                 }
                 ?>
-                <form method="post" name="myform" enctype="multipart/form-data" action="careers_submitform.php">
+                <form method="post" name="myform" enctype="multipart/form-data" action="careers.php">
                     <div class="row">
                         <div class="form-group">
                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">

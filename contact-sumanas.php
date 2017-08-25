@@ -51,19 +51,18 @@ include 'head.php';
         }
 
         if (!$error && isset($_POST['submit'])) {
-//                if (isset($_POST['email'])) {
-//                    $ToEmail = 'roobini@arkinfotec.com';
-//                    $EmailSubject = 'Site contact form';
-//                    $mailheader = "From: " . $email . "\r\n";
-//                    $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
-//                    $MESSAGE_BODY = "Name: " . $_POST['name'] . "";
-//                    $MESSAGE_BODY .= "Email: " . $email . "";
-//                    $MESSAGE_BODY .= "Phone: " . $phone . "";
-//                    $MESSAGE_BODY .= "Subject: " . $subject . "";
-//                    $MESSAGE_BODY .= "Message: " . nl2br($message) . "";
-//                    mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
-//                }
-            echo $name;
+            if (isset($_POST['email'])) {
+                $ToEmail = 'roobini@arkinfotec.com';
+                $EmailSubject = 'Site contact form';
+                $mailheader = "From: " . $email . "\r\n";
+                $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
+                $MESSAGE_BODY = "Name: " . $_POST['name'] . "";
+                $MESSAGE_BODY .= "Email: " . $email . "";
+                $MESSAGE_BODY .= "Phone: " . $phone . "";
+                $MESSAGE_BODY .= "Subject: " . $subject . "";
+                $MESSAGE_BODY .= "Message: " . nl2br($message) . "";
+                mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
+            }
         }
     }
 
@@ -143,7 +142,7 @@ include 'head.php';
                     <h2> Get in Touch </h2>
                     <img src="images/contactus-line2.jpg" alt=""></div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 contact-details1">
-                    <p> <img src="images/contact-icon1.png"  alt=""></p>
+                    <p> <img src="images/contact-icon1.png"  alt="Address"></p>
                     <p> <span> Address </span> </p>
                     <p> No:01, Gandhiji St, Rasi Towers, <br/>
                         Near Aparna Enclave, Velmurgan Nagar, <br/>
@@ -151,12 +150,12 @@ include 'head.php';
                     </p>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 contact-details1">
-                    <p> <img src="images/contact-icon2.png"  alt=""></p>
+                    <p> <img src="images/contact-icon2.png"  alt="Phone"></p>
                     <p> <span> Phone </span> </p>
                     <p> 0452-4210515  / 9952870443 </p>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 contact-details1">
-                    <p> <img src="images/contact-icon3.png"  alt=""></p>
+                    <p> <img src="images/contact-icon3.png"  alt="Email"></p>
                     <p> <span> Email </span> </p>
                     <p><a href="mailto:info@sumanastech.com">info@sumanastech.com</a> </p>
                 </div>
