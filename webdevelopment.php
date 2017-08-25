@@ -164,7 +164,7 @@
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">
                                     <div class="item">
-                                        <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/Martine-Breton.jpg" alt=""></div>
                                         <blockquote>
                                             <p>I have been working with Raj and his team for more than 3 years now. We have worked on several very complex projects which had strict deadlines.I am happy to say that the team has always delivered the job on time and moreimportantly with high quality and professionalism.</p>
                                             <p> <strong> -Martine Breton </strong></p>
@@ -178,21 +178,21 @@
                                         </blockquote>
                                     </div>
                                     <div class="active item">
-                                        <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/Jeesica.jpg" alt=""></div>
                                         <blockquote>
                                             <p> As a web development company we have worked with a number of different local and overseas developers and development companies. Raj and his team are amongst the very best and have consistently provided quality work!</p>
                                             <p> <strong> -Jessica Murphy </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="item">
-                                        <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/Tahir.jpg" alt=""></div>
                                         <blockquote>
                                             <p>Great place to propel your ideas. I have always received exceptional quality of work with faster turn around.The work dedication is great, and they are always up with instant fixes! Loved working with them.</p>
                                             <p> <strong> -Tahir </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="item">
-                                        <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/Daniel.jpg" alt=""></div>
                                         <blockquote>
                                             <p>Sumanas Technologies have an experienced team of developers and designers.  We have used them for a range of services including laravel application development, API and middleware development, front end UX design and development, Wordpress and more!</p>
                                             <p> <strong> -Daniel </strong></p>
