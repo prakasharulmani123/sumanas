@@ -188,11 +188,11 @@ include 'head.php';
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="servicebg1 servicebg2">
-                                <p> <a href="<?php echo "webdevelopment.php"; ?>"> <img src="images/service-icon2.png"  alt=""> </a> </p>
-                                <p class="service-name"> <a href="<?php echo "webdevelopment.php"; ?>">Web <br/>
+                                <p> <a href="<?php echo "website-development.php"; ?>"> <img src="images/service-icon2.png"  alt=""> </a> </p>
+                                <p class="service-name"> <a href="<?php echo "website-development.php"; ?>">Web <br/>
                                         Development </a></p>
                                 <p class="service-txt"> We build custom applications that are tailor-made to fit your requirements. Have an idea? Share it with us and see it come to life with our technical expertise. </p>
-                                <p class="readmore-icon"> <a href="<?php echo "webdevelopment.php"; ?>"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a> </p>
+                                <p class="readmore-icon"> <a href="<?php echo "website-development.php"; ?>"> <i class="fa fa-angle-right" aria-hidden="true"></i> </a> </p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">

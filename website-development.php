@@ -1,4 +1,7 @@
-<?php include 'head.php'; ?>
+<?php
+$title = "Website Development Services in India";
+include 'head.php';
+?>
 <body class="innerpage">
     <?php include 'header.php'; ?>
     <div class="inner-page-heading webdev-heading ">

@@ -65,7 +65,7 @@ include 'head.php';
                                         Development</h3>
                                     <p> We build custom applications that are tailor-made to fit your requirements. Have an
                                         idea? Share it with us and see it come to life with our technical expertise. </p>
-                                    <p><a href="<?php echo "webdevelopment.php"; ?>" class="readmore1"> Read More... </a>
+                                    <p><a href="<?php echo "website-development.php"; ?>" class="readmore1"> Read More... </a>
                                     </p>
                                 </div>
                                 <div class="sevice-part5 wow fadeInRight" data-wow-delay="1.8s">

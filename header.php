@@ -19,7 +19,7 @@
                         <li> <a href="<?php echo 'services-overview.php'; ?>" aria-expanded="true"> <span class="sidebar-nav-item">What We Do </span> <i class="fa arrow"></i> </a>
                             <ul aria-expanded="true">
                                 <li><a href="<?php echo 'ui-ux-design.php'; ?>">UI / UX Design</a></li>
-                                <li><a href="<?php echo "webdevelopment.php"; ?>">Web Development</a></li>
+                                <li><a href="<?php echo "website-development.php"; ?>">Web Development</a></li>
                                 <li> <a href="<?php echo "digital-marketing.php"; ?>">Digital Marketing</a> </li>
                                 <li> <a href="<?php echo "mobile-app.php"; ?>">Mobile App Development</a> </li>
                             </ul>
