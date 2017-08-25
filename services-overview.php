@@ -1,4 +1,7 @@
-<?php include 'head.php'; ?>
+<?php
+$title = "Our Website Services Overview";
+include 'head.php';
+?>
     <body class="innerpage">
         <?php include 'header.php'; ?>
         <div class="inner-page-heading ">

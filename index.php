@@ -1,6 +1,9 @@
-<?php include 'head.php'; ?>
+<?php
+$title = "Digital Marketing Agency in India";
+include 'head.php';
+?>
 <body id="main">
-    <?php include 'header.php' ?>
+<?php include 'header.php' ?>
     <div id="fullpage">
         <div class="section " id="section0">
             <div class="section-arrow1"><a href="#" class="arrow2 bounce moveDown"> </a></div>
@@ -173,19 +176,19 @@
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 owl-theme"> <!-- Set up your HTML -->
                         <div class="owl-carousel hover-demo " id="portfolio">
-                        <div class="project-thumb-cont">
-                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                            <div class="project-thumb-cont">
+                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                            </div>
+                            <div class="project-thumb-cont">
+                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                            </div>
+                            <div class="project-thumb-cont">
+                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                            </div>
                         </div>
-                        <div class="project-thumb-cont">
-                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                        </div>
-                        <div class="project-thumb-cont">
-                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -378,7 +381,7 @@
                     </div>
                 </a></div>
         </div>
-        <?php include 'include/footer_index.php' ?>
+<?php include 'include/footer_index.php' ?>
     </div>
     <div class="drawermenu-overlay"></div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

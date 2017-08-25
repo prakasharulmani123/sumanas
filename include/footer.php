@@ -7,7 +7,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-link">
             <ul>
                 <li><a href="<?php echo "who-we-are.php"; ?>"> Who we are </a></li>
-                <li><a href="<?php echo "what-we-do.php"; ?>">What we do </a></li>
+                <li><a href="<?php echo "services-overview.php"; ?>">What we do </a></li>
                 <li><a href="#"> Portfolio </a></li>
                 <li><a href="#"> Blog </a></li>
                 <li><a href="<?php echo "careers.php"; ?>">Careers </a></li>
