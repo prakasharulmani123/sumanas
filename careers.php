@@ -57,11 +57,11 @@
                             <div class="job1-outter"> <img src="images/flame.png" alt=""></div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 job1 job2 floating2">
-                            <div class="job1-cont"> <span class="job-count"> 1 </span> <a href="#" data-toggle="modal" data-target="#myModal2">PHP DEVELOPER</a> </div>
+                            <div class="job1-cont"> <span class="job-count"> 1 </span> <a href="" data-toggle="modal" data-target="#myModal2">PHP DEVELOPER</a> </div>
                             <div class="job1-outter"> <img src="images/flame.png" alt=""></div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 job1 job3 floating">
-                            <div class="job1-cont"> <span class="job-count"> 1 </span> <a href="#" data-toggle="modal" data-target="#myModal3"> HR GENERALIST </a> </div>
+                            <div class="job1-cont"> <span class="job-count"> 1 </span> <a href="" data-toggle="modal" data-target="#myModal3"> HR GENERALIST </a> </div>
                             <div class="job1-outter"> <img src="images/flame.png" alt=""></div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <img src="images/join.png" alt=""></div>
@@ -100,8 +100,6 @@
                         $nameErr = $emailErr = $phoneErr = $source_to_findErr = $cover_letterErr = $fileErr = "";
                         $error = false;
                         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                            print_r($_POST);
-                            exit;
                             if ($_POST["position"]) {
                                 $position = test_input($_POST["position"]);
                             }
@@ -159,7 +157,7 @@
                                 move_uploaded_file($file_tmp, $file);
                                 $success = "file uploaded successfully";
                             }
-                            if (!$error) {
+                            if (!$error && isset($_POST['submit'])) {
                                 if (isset($_POST['email'])) {
                                     $ToEmail = 'roobini@arkinfotec.com';
                                     $EmailSubject = 'Site contact form';
@@ -184,11 +182,11 @@
                             return $data;
                         }
                         ?>
-                        <form method="post" name="myform" enctype="multipart/form-data" action="">
+                        <form method="post" name="myform" enctype="multipart/form-data" action="careers.php">
                             <div class="row">
                                 <div class="form-group">
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
-                                        <input type="hidden" class="form-control" placeholder="Position" name="position" value="<?php echo $position; ?>"> 
+                                        <?php echo '<input type="hidden" class="form-control" name="position" value="<?php echo $position; ?>">'; ?> 
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -253,6 +251,8 @@
                         $nameErr = $emailErr = $phoneErr = $source_to_findErr = $cover_letterErr = $fileErr = "";
                         $error = false;
                         if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                            print_r($_POST);
+                            exit;
                             if (empty($_POST["name"])) {
                                 $error = true;
                                 $nameErr = "This field is required";
@@ -307,7 +307,7 @@
                                 move_uploaded_file($file_tmp, $file);
                                 $success = "file uploaded successfully";
                             }
-                            if (!$error) {
+                            if (!$error && isset($_POST['submit'])) {
                                 if (isset($_POST['email'])) {
                                     $ToEmail = 'roobini@arkinfotec.com';
                                     $EmailSubject = 'Site contact form';
@@ -449,7 +449,7 @@
                             move_uploaded_file($file_tmp, $file);
                             $success = "file uploaded successfully";
                         }
-                        if (!$error) {
+                        if (!$error && isset($_POST['submit'])) {
                             if (isset($_POST['email'])) {
                                 $ToEmail = 'roobini@arkinfotec.com';
                                 $EmailSubject = 'Site contact form';

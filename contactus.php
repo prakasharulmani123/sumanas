@@ -75,19 +75,20 @@
                 $message = test_input($_POST["message"]);
             }
 
-            if (!$error) {
-                if (isset($_POST['email'])) {
-                    $ToEmail = 'roobini@arkinfotec.com';
-                    $EmailSubject = 'Site contact form';
-                    $mailheader = "From: " . $email . "\r\n";
-                    $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
-                    $MESSAGE_BODY = "Name: " . $_POST['name'] . "";
-                    $MESSAGE_BODY .= "Email: " . $email . "";
-                    $MESSAGE_BODY .= "Phone: " . $phone . "";
-                    $MESSAGE_BODY .= "Subject: " . $subject . "";
-                    $MESSAGE_BODY .= "Message: " . nl2br($message) . "";
-                    mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
-                }
+            if (!$error && isset($_POST['submit'])) {
+//                if (isset($_POST['email'])) {
+//                    $ToEmail = 'roobini@arkinfotec.com';
+//                    $EmailSubject = 'Site contact form';
+//                    $mailheader = "From: " . $email . "\r\n";
+//                    $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
+//                    $MESSAGE_BODY = "Name: " . $_POST['name'] . "";
+//                    $MESSAGE_BODY .= "Email: " . $email . "";
+//                    $MESSAGE_BODY .= "Phone: " . $phone . "";
+//                    $MESSAGE_BODY .= "Subject: " . $subject . "";
+//                    $MESSAGE_BODY .= "Message: " . nl2br($message) . "";
+//                    mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
+//                }
+                echo $name;
             }
         }
 
