@@ -103,7 +103,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 owl-theme"> <!-- Set up your HTML -->
                     <div class="row">
                         <div class="owl-carousel hover-demo " id="clients-carousel">
-                            <div class="client-cont wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="client-cont">
                                 <p><img src="images/client.jpg" alt=""></p>
                                 <p><a href="#"> Martine Breton </a></p>
                                 <div class="client-hover">
@@ -111,7 +111,7 @@
                                     <p> I have been working with Raj and his team for more than 3 years now. We have worked on several very complex projects which had strict deadlines.I am happy to say that the team has always delivered the job on time and moreimportantly with high quality and professionalism. </p>
                                 </div>
                             </div>
-                            <div class="client-cont wow bounceInUp" data-wow-delay="0.3s">
+                            <div class="client-cont">
                                 <p><img src="images/client.jpg" alt=""></p>
                                 <p><a href="#"> CJ lewis </a></p>
                                 <div class="client-hover">
@@ -119,7 +119,7 @@
                                     <p> I have worked with Raj on multiple projects, and I have received excellent quality work every time. Communication is always excellent, and I have never gone more than a day or two without a response. Reciprocation is always at pace. </p>
                                 </div>
                             </div>
-                            <div class="client-cont wow bounceInUp" data-wow-delay="0.5s">
+                            <div class="client-cont">
                                 <p><img src="images/client.jpg" alt=""></p>
                                 <p><a href="#"> Jessica Murphy </a></p>
                                 <div class="client-hover">
@@ -127,7 +127,7 @@
                                     <p>  As a web development company we have worked with a number of different local and overseas developers and development companies. Raj and his team are amongst the very best and have consistently provided quality work!   </p>
                                 </div>
                             </div>
-                            <div class="client-cont wow bounceInUp" data-wow-delay="0.7s">
+                            <div class="client-cont">
                                 <p><img src="images/client.jpg" alt=""></p>
                                 <p><a href="#"> Tahir </a></p>
                                 <div class="client-hover">
@@ -135,7 +135,7 @@
                                     <p> Great place to propel your ideas. I have always received exceptional quality of work with faster turn around.The work dedication is great, and they are always up with instant fixes! Loved working with them. </p>
                                 </div>
                             </div>
-                            <div class="client-cont wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="client-cont">
                                 <p><img src="images/client.jpg" alt=""></p>
                                 <p><a href="#"> Daniel </a></p>
                                 <div class="client-hover">
@@ -173,19 +173,19 @@
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 owl-theme"> <!-- Set up your HTML -->
                         <div class="owl-carousel hover-demo " id="portfolio">
-                            <div class="project-thumb-cont wow zoomIn" data-wow-delay="0.2s">
-                                <div class="project-thumb"><img src="images/project1.jpg" alt=""></div>
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                            </div>
-                            <div class="project-thumb-cont wow zoomIn" data-wow-delay="0.2s">
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                            </div>
-                            <div class="project-thumb-cont wow zoomIn" data-wow-delay="0.2s">
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                            </div>
+                        <div class="project-thumb-cont">
+                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
                         </div>
+                        <div class="project-thumb-cont">
+                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                        </div>
+                        <div class="project-thumb-cont">
+                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -216,7 +216,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 owl-theme"> <!-- Set up your HTML -->
                         <div class="owl-carousel hover-demo " id="team">
                             <div class="team-cont">
-                                <div class="team wow zoomIn" data-wow-delay="0.2s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li> Music</li>
@@ -229,7 +229,7 @@
                                     <div class="team-name"> RAJENDRAN <br/>
                                         <span> Director/Founder </span></div>
                                     <img src="images/team1.jpg" alt=""></div>
-                                <div class="team wow zoomIn" data-wow-delay="0.3s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li> Travel </li>
@@ -244,7 +244,7 @@
                                     <img src="images/team1.jpg" alt=""></div>
                             </div>
                             <div class="team-cont">
-                                <div class="team wow zoomIn" data-wow-delay="0.2s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li> Rain </li>
@@ -257,7 +257,7 @@
                                     <div class="team-name"> ARIVU <br/>
                                         <span> Tech Lead </span></div>
                                     <img src="images/team1.jpg" alt=""></div>
-                                <div class="team wow zoomIn" data-wow-delay="0.3s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li> Travelling </li>
@@ -272,7 +272,7 @@
                                     <img src="images/team1.jpg" alt=""></div>
                             </div>
                             <div class="team-cont">
-                                <div class="team wow zoomIn" data-wow-delay="0.2s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li> Movies </li>
@@ -285,7 +285,7 @@
                                     <div class="team-name"> PRAKASH <br/>
                                         <span> Senior PHP Developer </span></div>
                                     <img src="images/team1.jpg" alt=""></div>
-                                <div class="team wow zoomIn" data-wow-delay="0.3s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
 
@@ -301,7 +301,7 @@
                                     <img src="images/team1.jpg" alt=""></div>
                             </div>
                             <div class="team-cont">
-                                <div class="team wow zoomIn" data-wow-delay="0.4s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li>Designing </li>
@@ -314,7 +314,7 @@
                                     <div class="team-name"> MARI <br/>
                                         <span> Senior UI/UX Designer </span></div>
                                     <img src="images/team1.jpg" alt=""></div>
-                                <div class="team wow zoomIn" data-wow-delay="0.5s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li>Reading </li>
@@ -329,7 +329,7 @@
                                     <img src="images/team1.jpg" alt=""></div>
                             </div>
                             <div class="team-cont">
-                                <div class="team wow zoomIn" data-wow-delay="0.6s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li> Reading </li>
@@ -342,7 +342,7 @@
                                     <div class="team-name"> SHAMIR <br/>
                                         <span> Senior SEO Analyst </span></div>
                                     <img src="images/team1.jpg" alt=""></div>
-                                <div class="team wow zoomIn" data-wow-delay="0.7s">
+                                <div class="team">
                                     <div class="team-hobby">
                                         <ul>
                                             <li> Swimming </li>
@@ -378,14 +378,11 @@
                     </div>
                 </a></div>
         </div>
-        <div class="inner-footer section section10" id="section10">
-            <?php include 'footer.php' ?>
-        </div>
+        <?php include 'include/footer_index.php' ?>
     </div>
     <div class="drawermenu-overlay"></div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/npm.js"></script>
     <!--<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>-->
     <!-- 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->

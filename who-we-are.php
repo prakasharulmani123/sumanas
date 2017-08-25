@@ -55,11 +55,7 @@
             </div>
         </div>
     </div>
-    <footer class="inner-footer">
-        <div class="section section10" id="section10">
-            <?php include 'footer.php'; ?>
-        </div>
-    </footer>
+    <?php include 'include/footer_inner.php' ?>
     <div class="drawermenu-overlay"></div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
     <script src="js/bootstrap.min.js"></script> 
