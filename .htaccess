@@ -1,5 +1,8 @@
 #Force www:
 RewriteEngine on
+RewriteBase /
+RewriteRule ^index\.php/?$ / [L,R=301,NC]
+
 RewriteCond %{HTTP_HOST} ^sumanastech.com [NC]
 RewriteRule ^(.*)$ http://www.sumanastech.com/$1 [L,R=301,NC]
 
