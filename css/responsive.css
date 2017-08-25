@@ -96,13 +96,10 @@
 .inner-page-heading {
 	margin-top: 82px;
 	padding:15px 0px;
-
 }
-.product-heading2
-{
+.product-heading2 {
 	height:350px;
 }
-	
 .converstion-bg {
 	padding: 2% 3%;
 }
@@ -165,9 +162,7 @@
 	width:280px;
 	float:none;
 }
-
-.ui-ux-points1 .pull-right
-{
+.ui-ux-points1 .pull-right {
 	float:none !important;
 }
 .ui-ux-points1 h2 {
@@ -176,7 +171,6 @@
 	margin-top:25px;
 	width:100%;
 	float:left;
-
 }
 .ui-ux-points1 {
 	font-size: 17px;
@@ -231,42 +225,31 @@
 	height: 110px;
 	margin-left: 25px;
 }
-
-.digital-points1 ul li
-{
+.digital-points1 ul li {
 	width:100%;
 }
-
 .lets h4 {
 	font-size: 30px;
 }
-
 .lets span {
 	font-size: 14px;
 }
-
 .request-quotebtn {
 	font-size: 20px;
 }
-
-
 .data-analytics-heading h2 {
 	font-size: 24px;
 }
-
 .data-analytics-cont {
 	padding: 14px;
 	font-size: 17px;
 	line-height: 25px;
 	min-height:auto;
 }
-
 .data-analytics-cont h4 {
 	font-size: 21px;
 }
-
-.data-analytics-icon
-{
+.data-analytics-icon {
 	width:98px;
 	height:98px;
 	border:#e5ad03 dashed 2px;
@@ -276,37 +259,26 @@
 	text-align:center;
 	padding-top:20px;
 }
-
 .data-analytics {
 	padding: 15px;
 	font-size: 16px;
 	line-height: 24px;
 }
-
-
-.contact-us1 .form-group
-{
+.contact-us1 .form-group {
 	margin-bottom:0px;
 }
-
-.contact-us1 .form-control
-{
+.contact-us1 .form-control {
 	margin-bottom:20px;
 }
-
 .submit-btn {
 	font-size: 19px;
 }
-
-.contact-us1
-{
-	padding:20px 10px; 
+.contact-us1 {
+	padding:20px 10px;
 }
 .contact-us2 {
 	padding: 40px 10px;
 }
-
-
 .mobile-app {
 	padding: 10px;
 	font-size: 17px;
@@ -314,126 +286,85 @@
 	font-weight:400;
 	margin-bottom:20px;
 }
-
 .mobile-app span {
 	font-size: 25px;
 }
-
 .career h2 {
 	font-size: 28px;
 }
-
-
 .jobs-list-cont {
 	background-size:100%;
 	font-size: 17px;
 	line-height: 23px;
 	margin-top: 10px;
 }
-
 .jobs-list-cont h3 {
 	font-size: 28px;
 	margin-bottom: 15px;
 }
-
 .job-list-txt {
 	padding-bottom: 0px;
 }
-
-.job1-outter img
-{
+.job1-outter img {
 	width:90%;
 }
 .job1 {
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
-
-
-.job1-cont a
-{
+.job1-cont a {
 	font-size:18px;
 	font-weight:500;
 }
-
 .job-count {
 	width: 40px;
 	height: 40px;
 	font-size: 26px;
 }
-
-
-.modal .form-group
-{
+.modal .form-group {
 	margin-bottom:0px;
 }
-
-
-.modal .form-control
-{
+.modal .form-control {
 	margin-bottom:15px;
 }
-
-.products-txt
-{
+.products-txt {
 	padding:25px;
 }
-
 .products-txt h2 {
 	font-size: 34px;
 	line-height: 34px;
 }
-
 .product1 .productbg {
 	padding: 15px;
 }
-
-.products-cont
-{
+.products-cont {
 	margin-bottom:10px;
 }
-
-
-.products-txt h2 br
-{
+.products-txt h2 br {
 	display:none;
 }
-
-
-.arrow-left, .arrow-right
-{
+.arrow-left, .arrow-right {
 	display:none;
 }
-
 .feature-heading h2, .description-heading h3, .product-screenshot-heading h4 {
 	font-size: 44px;
 }
-
 .product-details-cont1 {
 	padding-top: 50px;
 }
-
-
 .feature-heading span, .description-heading span, .product-screenshot-heading span {
 	font-size: 21px;
 }
-
 .feature1 {
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
-
-
-.plane1, .plane2
-{
+.plane1, .plane2 {
 	display:none;
 }
-
 {
-	display:none;
+ display:none;
 }
-
-
 .platform1 {
 	padding: 15px;
 	font-size: 19px;
@@ -441,22 +372,32 @@
 	margin-bottom: 25px;
 	min-height: auto;
 }
-
-
 .cms-icon {
 	text-align: center;
 	font-size: 34px;
 	padding-top: 20px;
 }
-
-.cms-icon p
-{
+.cms-icon p {
 	margin-bottom:15px;
 }
-
-.cms-icon img
-{
+.cms-icon img {
 	height:70px;
+}
+.arrow1 img {
+	width:25px;
+}
+.question1 {
+	font-size: 22px;
+	margin-left: 20px;
+	width:80%;
+}
+.question-cont {
+	margin-left: 15px;
+	top: -22px;
+}
+
+.testimonials-bg h5 {
+	font-size: 30px;
 }
 
 }
@@ -572,24 +513,19 @@
 	padding: 2% 5%;
 	font-size: 22px;
 }
-
 .data-analytics-heading h2 {
 	font-size: 30px;
 }
-
 .data-analytics-cont {
 	padding: 20px;
 	font-size: 17px;
 	line-height: 25px;
 	min-height: 382px;
 }
-
 .data-analytics-cont h4 {
 	font-size: 21px;
 }
-
-.data-analytics-icon
-{
+.data-analytics-icon {
 	width:98px;
 	height:98px;
 	border:#e5ad03 dashed 2px;
@@ -599,86 +535,63 @@
 	text-align:center;
 	padding-top:20px;
 }
-
 .data-analytics {
 	padding: 25px;
 	font-size: 19px;
 	line-height: 30px;
 }
-
 .mobile-app {
 	padding: 20px;
 	font-size: 18px;
 	line-height: 28px;
 }
-
 .mobile-app span {
 	font-size: 32px;
 }
-
-.job1-outter img
-{
+.job1-outter img {
 	width:90%;
 }
-
-
 .job1 {
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
-
-
-
 .products-txt h2 {
 	font-size: 40px;
 	line-height: 40px;
 }
-
 .product1 .productbg {
 	padding: 25px;
 }
-
 .feature1 strong {
 	font-size: 20px;
 	color: #222222;
 	font-weight: 500;
 }
-
 .feature-heading h2 {
 	font-size: 60px;
 }
-
 .feature-heading span {
 	font-size: 24px;
 }
-
 .description-heading h3, .product-screenshot-heading h4 {
 	font-size: 55px;
 	margin-bottom:0px;
 }
-
-.description-heading span, .product-screenshot-heading span  {
+.description-heading span, .product-screenshot-heading span {
 	font-size: 22px;
 }
-
 .product-details-cont1 {
 	padding-top: 140px;
 }
-
-.plane1
-{
+.plane1 {
 	display:none;
 }
-
-.plane2
-{
+.plane2 {
 	width:250px;
 }
-
 #productscreens .owl-prev {
 	left: -8%;
 }
-
 #productscreens .owl-next {
 	right: -8%;
 }
@@ -688,21 +601,27 @@
 	line-height: 22px;
 	margin-bottom: 100px;
 }
-
-
 .platform1-heading {
 	font-size: 28px;
 	font-weight: 500;
 	margin-bottom: 25px;
 	margin-top: 10px;
 }
-
-.platform1-icon img
-{
+.platform1-icon img {
 	height:60px;
+}
+#main {
+}
+
+.crm .cms-txt {
+	min-height: 420px;
 }
 
 
+.ecommerce1 .cms-txt 
+{
+	min-height:440px;
+}
 
 
 }
@@ -743,57 +662,50 @@
 	font-weight: 300;
 	line-height: 30px;
 }
-
 .data-analytics-cont {
 	min-height: 408px;
 	margin-bottom: 85px;
 }
-
 .jobs-list-cont {
 	background-size: 100%;
 }
-
-.job1-outter img
-{
+.job1-outter img {
 	width:90%;
 }
-
 .products-txt h2 {
 	font-size: 50px;
 	line-height: 50px;
 }
-
 .product1 .productbg {
 	padding: 25px;
 }
-
-.plane1
-{
+.plane1 {
 	width:250px;
 	top:200px;
 	left:0px;
 }
-
-.plane2
-{
+.plane2 {
 	width:250px;
 }
-
 .platform1 {
 	min-height: 400px;
 }
-
 .cms-txt {
 	min-height: 475px;
 }
+.crm .cms-txt {
+	min-height: 290px;
+}
 
+.ecommerce1 .cms-txt 
+{
+	min-height:310px;
+}
 
 
 }
 @media (min-width:1200px) {
-.hidden-lg {
-	display:none!important
+#main {
+	overflow: hidden!important;
 }
 }
-
-

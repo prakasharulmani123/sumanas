@@ -9,9 +9,7 @@ body {
 	line-height:22px;
 	font-family: 'Montserrat', sans-serif;
 }
-#main{
-	overflow: hidden!important;
-}
+
 img {
 	max-width:100%;
 	height:auto
@@ -3065,9 +3063,9 @@ blockquote {
 	width:100%;
 	float:left;
 	font-weight:300;
-	height:175px;
 	padding-top:20px;
 	line-height:28px;
+	min-height:200px;
 }
 .profile-circle img {
 	border-radius:50%;
@@ -3698,4 +3696,14 @@ padding-top:22px;
 }
 
 
+.crm .cms-txt 
+{
+	min-height:190px;
+}
+
+
+.ecommerce1 .cms-txt 
+{
+	min-height:235px;
+}
 
