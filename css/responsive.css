@@ -434,6 +434,31 @@
 }
 
 
+.platform1 {
+	padding: 15px;
+	font-size: 19px;
+	line-height: 28px;
+	margin-bottom: 25px;
+	min-height: auto;
+}
+
+
+.cms-icon {
+	text-align: center;
+	font-size: 34px;
+	padding-top: 20px;
+}
+
+.cms-icon p
+{
+	margin-bottom:15px;
+}
+
+.cms-icon img
+{
+	height:70px;
+}
+
 }
 @media (min-width:768px) and (max-width:991px) {
 .section2, .section7 {
@@ -657,6 +682,28 @@
 #productscreens .owl-next {
 	right: -8%;
 }
+.platform1 {
+	padding: 10px;
+	font-size: 17px;
+	line-height: 22px;
+	margin-bottom: 100px;
+}
+
+
+.platform1-heading {
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+.platform1-icon img
+{
+	height:60px;
+}
+
+
+
 
 }
 @media (min-width:992px) and (max-width:1199px) {
@@ -731,6 +778,16 @@
 {
 	width:250px;
 }
+
+.platform1 {
+	min-height: 400px;
+}
+
+.cms-txt {
+	min-height: 475px;
+}
+
+
 
 }
 @media (min-width:1200px) {

@@ -3589,3 +3589,113 @@ padding-top:22px;
 	z-index:10;
 	right:0px;
 }
+
+
+.platform-cont
+{
+	width:100%;
+	float:left;
+	padding:40px 0px 0px 0px;
+	background:url(../images/bg1.png) center 200px no-repeat;
+}
+
+
+.platform1
+{
+	width:100%;
+	float:left;
+	background:#f58220;
+	padding:25px;
+	color:#ffffff;
+	text-align:center;
+	font-size:19px;
+	font-weight:300;
+	line-height:28px;
+	margin-bottom:100px;
+	min-height:345px;
+	position:relative;
+}
+
+.platform1 a
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.platform2
+{
+	background:#33bb95;
+}
+
+.platform3
+{
+	background:#f6b703;
+}
+
+
+.platform1-heading
+{
+	width:100%;
+	float:left;
+	text-align:center;
+	font-size:40px;
+	font-weight:500;
+	margin-bottom:25px;
+	margin-top:10px;
+}
+
+
+.platform1-icon
+{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+
+.cms-cont
+{
+	width:100%;
+	float:left;
+}
+
+
+.cms-1
+{
+	width:100%;
+	float:left;
+	border:#cccccc dashed 3px;
+	margin-top:25px;
+	margin-bottom:25px;
+	min-height:400px;
+}
+
+
+.cms-1 p
+{
+	margin-bottom:20px;
+}
+
+.cms-icon
+{
+	border-bottom:#f58220 solid 4px;
+	text-align:center;
+	font-size:40px;
+	font-weight:600;
+	padding-top:25px;
+}
+
+.cms-txt {
+	width: 100%;
+	float: left;
+	padding: 15px 20px;
+	text-align: justify;
+	line-height: 26px;
+	font-size: 15px;
+	min-height:345px;
+}
+
+
+
