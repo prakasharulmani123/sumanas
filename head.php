@@ -15,6 +15,7 @@
 
         <link rel="stylesheet" href="css/metisMenu.min.css">
         <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
         <!--<link rel="stylesheet" href="css/jquery.es-drawermenu.min.css">-->
 
