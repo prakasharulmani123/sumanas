@@ -34,9 +34,10 @@
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 footer-cont">
                 <p> <span> <i class="fa fa-bullhorn" aria-hidden="true"></i> Social Media </span> </p>
-                <p> <a href="#"> facebook</a> <br/>
-                    <a href="#"> twitter</a> <br/>
-                    <a href="#"> google plus</a><br/>
+                <p> <a href="https://twitter.com/sumanastech" target="_blank"> Facebook</a> <br/>
+                    <a href="https://twitter.com/sumanastech" target="_blank"> Twitter</a> <br/>
+                    <a href="https://plus.google.com/+SumanasTech" target="_blank"> Google Plus</a><br/>
+                    <a href="https://pinterest.com/sumanastech/" target="_blank"> Pinterest</a><br/>
                 </p>
             </div>
         </div>
