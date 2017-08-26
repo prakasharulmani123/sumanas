@@ -24,8 +24,8 @@
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 footer-cont">
                 <p> <span> <i class="fa fa-phone" aria-hidden="true"></i> Phone no </span> </p>
-                <p> +91 98947 25600 <br/>
-                    +91 98947 32541 <br/>
+                <p> +91 98948 37443 <br/>
+                    +91 99528 70443 <br/>
                 </p>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 footer-cont">
