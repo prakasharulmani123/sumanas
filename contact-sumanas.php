@@ -178,7 +178,7 @@ include 'head.php';
                 type: "POST",
                 url: "submit-form.php",
                 data: datastring,
-                dataType: "json",
+//                dataType: "json",
                 success: function (text) {
                     if (text == "success") {
                         formSuccess();
@@ -191,7 +191,7 @@ include 'head.php';
             $("#msgSubmit").removeClass("hide");
             setTimeout(function () {
                 $('#msgSubmit').addClass('hide');
-            }, 1000);
+            }, 2000);
         }
 
     </script>
