@@ -40,7 +40,7 @@ include 'head.php';
                         <div class="job1-cont"> <span class="job-count"> 1 </span> <a href="" data-toggle="modal" data-target="#myModal3"> HR GENERALIST </a> </div>
                         <div class="job1-outter"> <img src="images/flame.png" alt="HR GENERALIST"></div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <img src="images/join.png" alt=""></div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <img src="images/join.png" alt="Join us at Sumanas"></div>
                 </div>
             </div>
         </div>

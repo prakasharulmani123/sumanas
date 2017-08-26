@@ -366,7 +366,7 @@ include 'head.php';
         </div>
         <div class="section section9" id="section9">
             <div class="container-fluid">
-                <div class="slogan-img1"><img src="images/slogan-img1.png" alt=""></div>
+                <div class="slogan-img1"><img src="images/slogan-img1.png" alt="Want to know more"></div>
                 <div class="slogan1 wow fadeInDown" data-wow-delay="0.5s"><span> WANT TO </span> <br/>
                     KNOW MORE
                 </div>

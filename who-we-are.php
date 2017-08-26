@@ -39,7 +39,7 @@ include 'head.php';
                     </div>
                 </div>
                 <div class="aboutsus-row1">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-5 aboutsus-in-img pull-right"> <img src="images/aboutus-img3.png"  alt=""></div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-5 aboutsus-in-img pull-right"> <img src="images/aboutus-img3.png"  alt="About Sumanas"></div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7 abouus-txt1 abouus-txt2">
                         <p> The chats over a <span> cup of coffee </span>, the never-ending brain storming sessions are the key ingredients that go into making your product the very BEST! </p>
                         <p> We believe in doing and not just talking. Because people <span>love to 'see'  results and not just 'hear'.</span> </p>

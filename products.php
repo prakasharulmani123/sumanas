@@ -27,7 +27,7 @@ include 'head.php';
                     <div class="row">
                         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                             <div class="productbg">
-                                <div class="productbg2"> <img src="images/product1.jpg" alt=""></div>
+                                <div class="productbg2"> <img src="images/product1.jpg" alt="Hospital Management Software"></div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 products-txt">
@@ -44,7 +44,7 @@ include 'head.php';
                     <div class="row">
                         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                             <div class="productbg">
-                                <div class="productbg2"> <img src="images/product2.jpg" alt=""></div>
+                                <div class="productbg2"> <img src="images/product2.jpg" alt="Sales Force"></div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 products-txt products-txt2">
@@ -59,7 +59,7 @@ include 'head.php';
                     <div class="row">
                         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                             <div class="productbg">
-                                <div class="productbg2"> <img src="images/product3.jpg" alt=""></div>
+                                <div class="productbg2"> <img src="images/product3.jpg" alt="Sugar CRM"></div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 products-txt products-txt3">
