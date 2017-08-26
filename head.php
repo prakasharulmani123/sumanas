@@ -27,6 +27,7 @@
             <![endif]-->
         
         <meta name="robots" content="noindex,nofollow"/>
+        <meta name="p:domain_verify" content="c8bdf05bc72548aeb6b6aab5af76de05"/>
 
         <title><?php echo (isset($title) ? $title : '' ); ?></title>
     </head>
