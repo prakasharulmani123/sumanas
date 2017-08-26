@@ -177,12 +177,12 @@ include 'head.php';
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 owl-theme"> <!-- Set up your HTML -->
                         <div class="owl-carousel hover-demo " id="portfolio">
                             <div class="project-thumb-cont">
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                                <div class="project-thumb1"><img src="images/project2.jpg" alt=""></div>
+                                <div class="project-thumb1"><img src="images/project1.jpg" alt="Project 1"></div>
+                                <div class="project-thumb1"><img src="images/project2.jpg" alt="Project 2"></div>
                             </div>
                             <div class="project-thumb-cont">
-                                <div class="project-thumb1"><img src="images/project3.jpg" alt=""></div>
-                                <div class="project-thumb1"><img src="images/project4.jpg" alt=""></div>
+                                <div class="project-thumb1"><img src="images/project3.jpg" alt="Project 3"></div>
+                                <div class="project-thumb1"><img src="images/project4.jpg" alt="Project 4"></div>
                             </div>
 <!--                            <div class="project-thumb-cont">
                                 <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
