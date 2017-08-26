@@ -179,7 +179,7 @@ include 'head.php';
                              </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="servicebg1">
-                                <p> <a href="<?php echo "ui-ux-design.php"; ?>"> <img src="images/service-icon1.png"  alt=""> </a> </p>
+                                <p> <a href="<?php echo "ui-ux-design.php"; ?>"> <img src="images/service-icon1.png"  alt="UI / UX"> </a> </p>
                                 <p class="service-name"> <a href="<?php echo "ui-ux-design.php"; ?>"> UI / UX <br/>
                                         Design </a></p>
                                 <p class="service-txt"> Your one stop-shop for great website designs, exotic logos, and awesome Graphic Designs. Ask for more and you will get more! </p>
@@ -188,7 +188,7 @@ include 'head.php';
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="servicebg1 servicebg2">
-                                <p> <a href="<?php echo "website-development.php"; ?>"> <img src="images/service-icon2.png"  alt=""> </a> </p>
+                                <p> <a href="<?php echo "website-development.php"; ?>"> <img src="images/service-icon2.png"  alt="Web Developement"> </a> </p>
                                 <p class="service-name"> <a href="<?php echo "website-development.php"; ?>">Web <br/>
                                         Development </a></p>
                                 <p class="service-txt"> We build custom applications that are tailor-made to fit your requirements. Have an idea? Share it with us and see it come to life with our technical expertise. </p>
@@ -197,7 +197,7 @@ include 'head.php';
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="servicebg1 servicebg3">
-                                <p> <a href="<?php echo "digital-marketing.php"; ?>"> <img src="images/service-icon3.png"  alt=""> </a> </p>
+                                <p> <a href="<?php echo "digital-marketing.php"; ?>"> <img src="images/service-icon3.png"  alt="Digital Marketing"> </a> </p>
                                 <p class="service-name"> <a href="<?php echo "digital-marketing.php"; ?>">Digital <br/>
                                         Marketing </a></p>
                                 <p class="service-txt">This is the platformthat's makes your business catch the spotlight! We help your brand get the much needed attention and we make sure it is here to stay! </p>
@@ -206,7 +206,7 @@ include 'head.php';
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="servicebg1 servicebg4">
-                                <p> <a href="<?php echo "mobile-app-development.php"; ?>"> <img src="images/service-icon4.png"  alt=""> </a> </p>
+                                <p> <a href="<?php echo "mobile-app-development.php"; ?>"> <img src="images/service-icon4.png"  alt="Mobile App"> </a> </p>
                                 <p class="service-name"> <a href="<?php echo "mobile-app-development.php"; ?>">Mobile App <br/>
                                         Development</a></p>
                                 <p class="service-txt"> Find the finest of services in mobile application development, compatible with IOS, Android and windows. All that you wanted is at the tap of your finger.</p>

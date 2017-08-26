@@ -3,7 +3,7 @@ $title = "Digital Marketing Agency in India";
 include 'head.php';
 ?>
 <body id="main">
-<?php include 'header.php' ?>
+    <?php include 'header.php' ?>
     <div id="fullpage">
         <div class="section " id="section0">
             <div class="section-arrow1"><a href="#" class="arrow2 bounce moveDown"> </a></div>
@@ -110,7 +110,7 @@ include 'head.php';
                                 <p><img src="images/Martine-Breton.jpg" alt="Martine Breton"></p>
                                 <p><a href="#"> Martine Breton </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/Martine-Breton.jpg" alt="Martine Breton"></p>
+                                    <p><strong>Martine Breton</strong></p>
                                     <p> I have been working with Raj and his team for more than 3 years now. We have worked on several very complex projects which had strict deadlines.I am happy to say that the team has always delivered the job on time and moreimportantly with high quality and professionalism. </p>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ include 'head.php';
                                 <p><img src="images/client.jpg" alt="CJ lewis"></p>
                                 <p><a href="#"> CJ lewis </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/client.jpg" alt="CJ lewis"></p>
+                                    <p><strong>CJ lewis</strong></p>
                                     <p> I have worked with Raj on multiple projects, and I have received excellent quality work every time. Communication is always excellent, and I have never gone more than a day or two without a response. Reciprocation is always at pace. </p>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@ include 'head.php';
                                 <p><img src="images/Jeesica.jpg" alt="Jessica Murphy"></p>
                                 <p><a href="#"> Jessica Murphy </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/Jeesica.jpg" alt="Jessica Murphy"></p>
+                                    <p><strong> Jessica Murphy </strong></p>
                                     <p>  As a web development company we have worked with a number of different local and overseas developers and development companies. Raj and his team are amongst the very best and have consistently provided quality work!   </p>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ include 'head.php';
                                 <p><img src="images/Tahir.jpg" alt="Tahir"></p>
                                 <p><a href="#"> Tahir </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/Tahir.jpg" alt="Tahir"></p>
+                                    <p><strong> Tahir </strong></p>
                                     <p> Great place to propel your ideas. I have always received exceptional quality of work with faster turn around.The work dedication is great, and they are always up with instant fixes! Loved working with them. </p>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ include 'head.php';
                                 <p><img src="images/Daniel.jpg" alt="Daniel"></p>
                                 <p><a href="#"> Daniel </a></p>
                                 <div class="client-hover">
-                                    <p><img src="images/Daniel.jpg" alt="Daniel"></p>
+                                    <p><strong> Daniel </strong></p>
                                     <p> Sumanas Technologies have an experienced team of developers and designers.  We have used them for a range of services including laravel application development, API and middleware development, front end UX design and development, Wordpress and more! </p>
                                 </div>
                             </div>
@@ -381,7 +381,7 @@ include 'head.php';
                     </div>
                 </a></div>
         </div>
-<?php include 'include/footer_index.php' ?>
+        <?php include 'include/footer_index.php' ?>
     </div>
     <div class="drawermenu-overlay"></div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

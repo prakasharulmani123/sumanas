@@ -21,18 +21,18 @@ include 'head.php';
                         <h2> BECOME VISIBLE</h2>
                         <p> And this is exactly what we help you do! </p>
                         <p> We are a bunch of passionate individuals, who love building creative products with cutting-edge technology. Our love for innovation has taken us through a journey that makes us extremely proud. </p>
-                        <p class="aboutusimg"> <img src="images/visible.png"  alt=""></p>
+                        <p class="aboutusimg"> <img src="images/visible.png"  alt="BECOME VISIBLE"></p>
                     </div>
                 </div>
                 <div class="aboutsus-row1">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 aboutsus-in-img pull-right"> <img src="images/aboutus-img1.png"  alt=""></div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 aboutsus-in-img pull-right"> <img src="images/aboutus-img1.png"  alt="Creative Heads"></div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 abouus-txt1">
                         <p> <span class="company-name">'Sumanas <strong> Technologies</strong> '</span> professional base runs for a decade in the market, marking its inception in 2008. Transforming into a full-fledged Private Limited Enterprise, our identity has got itself a facelift and is yet another milestone in our journey towards excellence. </p>
                         <p> Our masterminds onboard are pioneers of forward thinking and it has always been a battle of the <span> 'Creative Heads'.</span> </p>
                     </div>
                 </div>
                 <div class="aboutsus-row1">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-5 aboutsus-in-img"> <img src="images/aboutus-img2.png"  alt=""></div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-5 aboutsus-in-img"> <img src="images/aboutus-img2.png"  alt="creativity and innovation."></div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7 abouus-txt1 abouus-txt2">
                         <p> Delivering nothing but the best runs in our <span> DNA! </span> Our services comprise of Web Designing & development, Software & Mobile application development, Digital Marketing, and Custom Applications Development; anything and everything that your business has ever wanted! </p>
                         <p> Building products is like penning a story. Each chapter awes you with our <span> creativity and innovation. </span> </p>

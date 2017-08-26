@@ -9,7 +9,7 @@
                     <h1>Hospital Management Software </h1>
                     <p> <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a augue justo.  </span> </p>
 
-                    <p> <a href="#"><img src="images/fb.png"  alt=""></a>  <a href="#"><img src="images/twitter.png"  alt=""></a>  <a href="#"><img src="images/gplus.png"  alt=""></a>   <a href="#"><img src="images/pintrest.png"  alt=""></a> </p>
+                    <p> <a href="#"><img src="images/fb.png"  alt="facebook"></a>  <a href="#"><img src="images/twitter.png"  alt="twitter"></a>  <a href="#"><img src="images/gplus.png"  alt="google plus"></a>   <a href="#"><img src="images/pintrest.png"  alt="pininterest"></a> </p>
 
                 </div>
 
@@ -45,7 +45,7 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 feature1"> 
 
-                    <p class="feature-icon"> <img src="images/feature-icon1.png" alt=""></p>
+                    <p class="feature-icon"> <img src="images/feature-icon1.png" alt="Boost Performance"></p>
 
                     <p> <strong> Boost Performance </strong></p>
                     <p> Eu sit soluta antiopam, postea sanctus in an vis. Pro primis insolens recteque ne, nostrum molestie splendide sed et elitr.</p>
@@ -56,7 +56,7 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 feature1"> 
 
-                    <p class="feature-icon"> <img src="images/feature-icon2.png" alt=""></p>
+                    <p class="feature-icon"> <img src="images/feature-icon2.png" alt="Easy to customize"></p>
 
                     <p> <strong> Easy to customize </strong></p>
                     <p> Eu sit soluta antiopam, postea sanctus in an vis. Pro primis insolens recteque ne, nostrum molestie splendide sed et elitr.</p>
@@ -68,7 +68,7 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 feature1"> 
 
-                    <p class="feature-icon"> <img src="images/feature-icon3.png" alt=""></p>
+                    <p class="feature-icon"> <img src="images/feature-icon3.png" alt="Modern design"></p>
 
                     <p> <strong> Modern design </strong></p>
                     <p> Eu sit soluta antiopam, postea sanctus in an vis. Pro primis insolens recteque ne, nostrum molestie splendide sed et elitr.</p>
@@ -81,7 +81,7 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 feature1"> 
 
-                    <p class="feature-icon"> <img src="images/feature-icon4.png" alt=""></p>
+                    <p class="feature-icon"> <img src="images/feature-icon4.png" alt="Easy Tools navigation"></p>
 
                     <p> <strong> Easy Tools navigation </strong></p>
                     <p> Eu sit soluta antiopam, postea sanctus in an vis. Pro primis insolens recteque ne, nostrum molestie splendide sed et elitr.</p>
@@ -93,7 +93,7 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 feature1"> 
 
-                    <p class="feature-icon"> <img src="images/feature-icon5.png" alt=""></p>
+                    <p class="feature-icon"> <img src="images/feature-icon5.png" alt="Analysis and Reports"></p>
 
                     <p> <strong> Analysis and Reports </strong></p>
                     <p> Eu sit soluta antiopam, postea sanctus in an vis. Pro primis insolens recteque ne, nostrum molestie splendide sed et elitr.</p>
@@ -104,7 +104,7 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 feature1"> 
 
-                    <p class="feature-icon"> <img src="images/feature-icon6.png" alt=""></p>
+                    <p class="feature-icon"> <img src="images/feature-icon6.png" alt="Simplified Workflow"></p>
 
                     <p> <strong> Simplified Workflow </strong></p>
                     <p> Eu sit soluta antiopam, postea sanctus in an vis. Pro primis insolens recteque ne, nostrum molestie splendide sed et elitr.</p>

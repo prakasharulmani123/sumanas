@@ -27,7 +27,13 @@
 
                         <li>   <a href="#">Our Works</a></li> 
                         <li>  <a href="<?php echo "products.php"; ?>"> Products</a></li> 
-                        <li>   <a href="platform.php">Platform</a></li>
+                        <li> <a href="<?php echo 'platform.php'; ?>" aria-expanded="true"> <span class="sidebar-nav-item">Platform </span> <i class="fa arrow"></i> </a>
+                            <ul aria-expanded="true">
+                                <li><a href="<?php echo 'cms.php'; ?>">CMS</a></li>
+                                <li><a href="<?php echo "crm.php"; ?>">CRM</a></li>
+                                <li> <a href="<?php echo "e-commerce.php"; ?>">eCommerce</a> </li>
+                            </ul>
+                        </li>
                         <li>   <a href="#">Technologies</a></li>
                         <li> <a href="#">Blog</a> </li>
                         <li> <a href="<?php echo "careers.php"; ?>">Careers</a> </li>

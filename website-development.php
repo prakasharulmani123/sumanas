@@ -42,7 +42,7 @@ include 'head.php';
                         </div>
                         <div class="post-content post-content1">
                             <div class="edge"> <img src="images/edge.png"  alt=""></div>
-                            <div class="stepimg"> <img src="images/webdevelop-img1.png" alt=""></div>
+                            <div class="stepimg"> <img src="images/webdevelop-img1.png" alt="Kick-Off & Discovery"></div>
                             <div class="entry-content">
                                 <h2 class="post-title"> <span>01</span> Kick-Off & Discovery</h2>
                                 <p>With your ideas in mind, we begin sketching the layout of your requirements. Your needs go through our microscopic eyes, to make sure that we don't miss out on even the smallest of things.</p>
@@ -57,7 +57,7 @@ include 'head.php';
                         </div>
                         <div class="post-content post-content1 post-content2">
                             <div class="edge2"> <img src="images/edge2.png"  alt=""></div>
-                            <div class="stepimg"> <img src="images/webdevelop-img2.png"  alt=""></div>
+                            <div class="stepimg"> <img src="images/webdevelop-img2.png"  alt="The Core Architecture"></div>
                             <div class="entry-content">
                                 <h2 class="post-title"> <span>02</span> The Core Architecture</h2>
                                 <p>Step-by-step your website gets an iron framework on which your brand is going to stand tall. The architecture is designed with precision so that the website not only looks elegant but is also robust from the inside.</p>
@@ -72,7 +72,7 @@ include 'head.php';
                         </div>
                         <div class="post-content post-content1 post-content3">
                             <div class="edge"> <img src="images/edge.png"  alt=""></div>
-                            <div class="stepimg"> <img src="images/webdevelop-img3.png"  alt=""></div>
+                            <div class="stepimg"> <img src="images/webdevelop-img3.png"  alt="Design & Mocks"></div>
                             <div class="entry-content">
                                 <h2 class="post-title"> <span>03</span> Design & Mocks</h2>
                                 <p>Now it's time to make your website look beautiful from the outside! We don't stop till we see that smile of content on your face. The mock is a reflection of your brand which is nothing less than the very best.</p>
@@ -87,7 +87,7 @@ include 'head.php';
                         </div>
                         <div class="post-content post-content1 post-content4">
                             <div class="edge2"> <img src="images/edge2.png"  alt=""></div>
-                            <div class="stepimg"> <img src="images/webdevelop-img4.png"  alt=""></div>
+                            <div class="stepimg"> <img src="images/webdevelop-img4.png"  alt="Getting Coded!"></div>
                             <div class="entry-content">
                                 <h2 class="post-title"> <span>04</span> Getting Coded!</h2>
                                 <p>We code your website according to the highest coding standards. Your website will stand the test of time with our cutting-edge coding abilities and technologies.</p>
@@ -102,7 +102,7 @@ include 'head.php';
                         </div>
                         <div class="post-content post-content1 post-content5">
                             <div class="edge"> <img src="images/edge.png"  alt=""></div>
-                            <div class="stepimg"> <img src="images/webdevelop-img5.png"  alt=""></div>
+                            <div class="stepimg"> <img src="images/webdevelop-img5.png"  alt="Quality Checks & Re-checks"></div>
                             <div class="entry-content">
                                 <h2 class="post-title"> <span>05</span> Quality Checks & 
                                     Re-checks</h2>
@@ -118,7 +118,7 @@ include 'head.php';
                         </div>
                         <div class="post-content post-content1 post-content6">
                             <div class="edge2"> <img src="images/edge2.png"  alt=""></div>
-                            <div class="stepimg"> <img src="images/webdevelop-img6.png"  alt=""></div>
+                            <div class="stepimg"> <img src="images/webdevelop-img6.png"  alt="Its Launch Time"></div>
                             <div class="entry-content">
                                 <h2 class="post-title"> <span>06</span> Its Launch Time</h2>
                                 <p>The countdown begins. In 5…4…3…2…and 1, the world gets to see a never-seen-before experience.  Your brand is ready to grab the spotlight and is definitely here to stay!</p>
@@ -133,7 +133,7 @@ include 'head.php';
                         </div>
                         <div class="post-content post-content1 post-content7">
                             <div class="edge"> <img src="images/edge.png"  alt=""></div>
-                            <div class="stepimg"> <img src="images/webdevelop-img7.png"  alt=""></div>
+                            <div class="stepimg"> <img src="images/webdevelop-img7.png"  alt="Let's get optmized"></div>
                             <div class="entry-content">
                                 <h2 class="post-title"> <span>07</span> Let's get optmized </h2>
                                 <p>The countdown begins. In 5…4…3…2…and 1, the world gets to see a never-seen-before experience.  Your brand is ready to grab the spotlight and is definitely here to stay!</p>
@@ -167,35 +167,35 @@ include 'head.php';
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">
                                     <div class="item">
-                                        <div class="profile-circle"> <img src="images/Martine-Breton.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/Martine-Breton.jpg" alt="Martine Breton"></div>
                                         <blockquote>
                                             <p>I have been working with Raj and his team for more than 3 years now. We have worked on several very complex projects which had strict deadlines.I am happy to say that the team has always delivered the job on time and moreimportantly with high quality and professionalism.</p>
                                             <p> <strong> -Martine Breton </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="item">
-                                        <div class="profile-circle"> <img src="images/client.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/client.jpg" alt="CJ lewis"></div>
                                         <blockquote>
                                             <p> I have worked with Raj on multiple projects, and I have received excellent quality work every time. Communication is always excellent, and I have never gone more than a day or two without a response. Reciprocation is always at pace.</p>
                                             <p> <strong> - CJ lewis </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="active item">
-                                        <div class="profile-circle"> <img src="images/Jeesica.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/Jeesica.jpg" alt="Jessica Murphy"></div>
                                         <blockquote>
                                             <p> As a web development company we have worked with a number of different local and overseas developers and development companies. Raj and his team are amongst the very best and have consistently provided quality work!</p>
                                             <p> <strong> -Jessica Murphy </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="item">
-                                        <div class="profile-circle"> <img src="images/Tahir.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/Tahir.jpg" alt="Tahir"></div>
                                         <blockquote>
                                             <p>Great place to propel your ideas. I have always received exceptional quality of work with faster turn around.The work dedication is great, and they are always up with instant fixes! Loved working with them.</p>
                                             <p> <strong> -Tahir </strong></p>
                                         </blockquote>
                                     </div>
                                     <div class="item">
-                                        <div class="profile-circle"> <img src="images/Daniel.jpg" alt=""></div>
+                                        <div class="profile-circle"> <img src="images/Daniel.jpg" alt="Daniel"></div>
                                         <blockquote>
                                             <p>Sumanas Technologies have an experienced team of developers and designers.  We have used them for a range of services including laravel application development, API and middleware development, front end UX design and development, Wordpress and more!</p>
                                             <p> <strong> -Daniel </strong></p>
