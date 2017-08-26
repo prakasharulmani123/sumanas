@@ -178,16 +178,16 @@ include 'head.php';
                         <div class="owl-carousel hover-demo " id="portfolio">
                             <div class="project-thumb-cont">
                                 <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                                <div class="project-thumb1"><img src="images/project2.jpg" alt=""></div>
                             </div>
                             <div class="project-thumb-cont">
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                                <div class="project-thumb1"><img src="images/project3.jpg" alt=""></div>
+                                <div class="project-thumb1"><img src="images/project4.jpg" alt=""></div>
                             </div>
-                            <div class="project-thumb-cont">
+<!--                            <div class="project-thumb-cont">
                                 <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
                                 <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
