@@ -90,10 +90,10 @@ include 'head.php';
                     <span> We would love to hear from you!</span> <br/>
                     <img src="images/contactus-line.jpg" alt=""></div>
 
-                <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6 contact-left"> <img src="images/contactus.png"  alt=""></div>
+                <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6 contact-left"> <img src="images/contactus.png"  alt="Contact Sumanas"></div>
 
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 contact-right">
-                    <form method="post" name="myform" action="contact-sumanas.php">
+                    <form method="post" name="myform" action="submit.php" id="contact_form">
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -187,6 +187,60 @@ include 'head.php';
     <script src="js/owl.carousel.min.js"></script> 
     <script type="text/javascript" src="js/jquery.es-drawermenu.js"></script> 
     <script src="js/metisMenu.js"></script> 
+    <script src="js/bootstrapValidator.min.js"></script> 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#contact_form').bootstrapValidator({
+                // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+                feedbackIcons: {
+                    valid: 'glyphicon glyphicon-ok',
+                    invalid: 'glyphicon glyphicon-remove',
+                    validating: 'glyphicon glyphicon-refresh'
+                },
+                fields: {
+                    name: {
+                        validators: {
+                            notEmpty: {
+                                message: ''
+                            }
+                        }
+                    },
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Please supply your email address'
+                            },
+                            emailAddress: {
+                                message: 'Please supply a valid email address'
+                            }
+                        }
+                    },
+                    phone: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Please supply your phone number'
+                            },
+                        }
+                    },
+                    subject: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Please supply your street address'
+                            }
+                        }
+                    },
+                    message : {
+                        validators: {
+                            notEmpty: {
+                                message: ''
+                            }
+                        }
+                    },
+                }
+            })
+        });
+
+    </script>
     <script type="text/javascript">
 
 
