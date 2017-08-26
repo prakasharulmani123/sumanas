@@ -3,76 +3,7 @@ $title = "Get an Instant Website Marketing Quote";
 include 'head.php';
 ?>
 <body class="innerpage">
-    <?php
-    include 'header.php';
-    $name = $email = $phone = $subject = $message = "";
-    $nameErr = $emailErr = $phoneErr = $subjectErr = $messageErr = "";
-    $error = false;
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        if (empty($_POST["name"])) {
-            $error = true;
-            $nameErr = "Name is required";
-        } else {
-            $name = test_input($_POST["name"]);
-            if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
-                $nameErr = "Only letters and white space allowed";
-            }
-        }
-
-        if (empty($_POST["email"])) {
-            $error = true;
-            $emailErr = "Email is required";
-        } else {
-            $email = test_input($_POST["email"]);
-            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                $emailErr = "Invalid email format";
-            }
-        }
-
-        if (empty($_POST["phone"])) {
-            $error = true;
-            $phoneErr = "Phone Number is required";
-        } else {
-            $phone = test_input($_POST["phone"]);
-        }
-
-        if (empty($_POST["subject"])) {
-            $error = true;
-            $subjectErr = "Subject is required";
-        } else {
-            $subject = test_input($_POST["subject"]);
-        }
-
-        if (empty($_POST["message"])) {
-            $error = true;
-            $messageErr = "Message is required";
-        } else {
-            $message = test_input($_POST["message"]);
-        }
-
-        if (!$error && isset($_POST['submit'])) {
-            if (isset($_POST['email'])) {
-                $ToEmail = 'roobini@arkinfotec.com';
-                $EmailSubject = 'Site contact form';
-                $mailheader = "From: " . $email . "\r\n";
-                $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
-                $MESSAGE_BODY = "Name: " . $_POST['name'] . "";
-                $MESSAGE_BODY .= "Email: " . $email . "";
-                $MESSAGE_BODY .= "Phone: " . $phone . "";
-                $MESSAGE_BODY .= "Subject: " . $subject . "";
-                $MESSAGE_BODY .= "Message: " . nl2br($message) . "";
-                mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
-            }
-        }
-    }
-
-    function test_input($data) {
-        $data = trim($data);
-        $data = stripslashes($data);
-        $data = htmlspecialchars($data);
-        return $data;
-    }
-    ?>
+    <?php include 'header.php'; ?>
     <div class="inner-page-heading ">
         <div class="container-fluid">
             <div class="row">
@@ -93,43 +24,35 @@ include 'head.php';
                 <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6 contact-left"> <img src="images/contactus.png"  alt="Contact Sumanas"></div>
 
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 contact-right">
-                    <form method="post" name="myform" action="submit.php" id="contact_form">
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="name" value="<?php echo $name ?>" type="text" class="form-control" placeholder="Name">
-                                    <?php echo $nameErr; ?>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="email" value="<?php echo $email ?>" type="text" class="form-control" placeholder="Email">
-                                    <?php echo $emailErr; ?>
-                                </div>
+                    <form method="post" name="myform" id="contact_form" autocomplete="off">
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <input name="name" type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <input name="email" type="text" class="form-control" placeholder="Email">
                             </div>
                         </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="phone" value="<?php echo $phone ?>" type="text" class="form-control" placeholder="Phone">
-                                    <?php echo $phoneErr; ?>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="subject" value="<?php echo $subject ?>" type="text" class="form-control" placeholder="Subject">
-                                    <?php echo $subjectErr; ?>
-                                </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <input name="phone" type="text" class="form-control" placeholder="Phone">
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <input name="subject" type="text" class="form-control" placeholder="Subject">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <textarea name="message" value="<?php echo $message ?>" type="text" cols="" rows="" class="form-control msg-filed" placeholder="Message"></textarea>
-                                    <?php echo $messageErr; ?>
+                                    <textarea name="message" type="text" cols="" rows="" class="form-control msg-filed" placeholder="Message"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                    <button class="btn submit-btn" type="submit" name="submit" value="submit"> Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i> </button>
+                                    <button class="btn submit-btn" type="submit" name="contactus" value="contactus"> Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i> </button>
+                                    <div id="msgSubmit" class="h4 text-center hide">Form Submitted Successfully!</div>
                                 </div>
                             </div>
                         </div>
@@ -201,44 +124,75 @@ include 'head.php';
                     name: {
                         validators: {
                             notEmpty: {
-                                message: ''
+                                message: ' '
                             }
                         }
                     },
                     email: {
                         validators: {
                             notEmpty: {
-                                message: 'Please supply your email address'
+                                message: ' '
                             },
                             emailAddress: {
-                                message: 'Please supply a valid email address'
+                                message: ' '
                             }
                         }
                     },
                     phone: {
                         validators: {
                             notEmpty: {
-                                message: 'Please supply your phone number'
+                                message: ' '
                             },
                         }
                     },
                     subject: {
                         validators: {
                             notEmpty: {
-                                message: 'Please supply your street address'
+                                message: ' '
                             }
                         }
                     },
-                    message : {
+                    message: {
                         validators: {
                             notEmpty: {
-                                message: ''
+                                message: ' '
                             }
                         }
                     },
                 }
-            })
+            }).on('submit', function (e) {
+                if (e.isDefaultPrevented()) {
+                    console.log('error');
+                } else {
+                    e.preventDefault();
+                    submitForm();
+                }
+            });
         });
+
+        function submitForm() {
+            // Initiate Variables With Form Content
+            var datastring = $("#contact_form").serialize();
+
+            $.ajax({
+                type: "POST",
+                url: "submit-form.php",
+                data: datastring,
+                dataType: "json",
+                success: function (text) {
+                    if (text == "success") {
+                        formSuccess();
+                    }
+                }
+            });
+        }
+
+        function formSuccess() {
+            $("#msgSubmit").removeClass("hide");
+            setTimeout(function () {
+                $('#msgSubmit').addClass('hide');
+            }, 1000);
+        }
 
     </script>
     <script type="text/javascript">
