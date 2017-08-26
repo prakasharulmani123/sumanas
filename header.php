@@ -34,7 +34,12 @@
                                 <li> <a href="<?php echo "e-commerce.php"; ?>">eCommerce</a> </li>
                             </ul>
                         </li>
-                        <li>   <a href="#">Technologies</a></li>
+                        <li> <a href="<?php echo 'technologies.php'; ?>" aria-expanded="true"> <span class="sidebar-nav-item">Technologies </span> <i class="fa arrow"></i> </a>
+                            <ul aria-expanded="true">
+                                <li><a href="<?php echo "cloud.php"; ?>">Cloud</a></li>
+                                <li> <a href="<?php echo "opensource.php"; ?>">Open Source</a> </li>
+                            </ul>
+                        </li>
                         <li> <a href="#">Blog</a> </li>
                         <li> <a href="<?php echo "careers.php"; ?>">Careers</a> </li>
                         <li> <a href="<?php echo "contact-sumanas.php"; ?>">Contact </a> </li>

@@ -374,7 +374,7 @@
 }
 .cms-icon {
 	text-align: center;
-	font-size: 34px;
+	font-size: 22px;
 	padding-top: 20px;
 }
 .cms-icon p {
@@ -398,6 +398,11 @@
 
 .testimonials-bg h5 {
 	font-size: 30px;
+}
+
+.cms-1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 }

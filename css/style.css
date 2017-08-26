@@ -3657,6 +3657,7 @@ padding-top:22px;
 {
 	width:100%;
 	float:left;
+	padding-top:30px;
 }
 
 
@@ -3665,8 +3666,8 @@ padding-top:22px;
 	width:100%;
 	float:left;
 	border:#cccccc dashed 3px;
-	margin-top:25px;
-	margin-bottom:25px;
+	margin-top:0px;
+	margin-bottom:30px;
 	min-height:400px;
 }
 
@@ -3680,7 +3681,7 @@ padding-top:22px;
 {
 	border-bottom:#f58220 solid 4px;
 	text-align:center;
-	font-size:40px;
+	font-size:32px;
 	font-weight:600;
 	padding-top:25px;
 }
