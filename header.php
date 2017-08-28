@@ -56,11 +56,23 @@
         <div class="menu-contact"> <i class="fa fa-phone" aria-hidden="true"></i> 0452-4210515 , 9952870443 <br/>
             <i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto: info@sumanastech.com ">info@sumanastech.com</a></div>
         <ul>
-            <li> <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-            <li> <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-            <li> <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
-            <li> <a href="#"> <i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
-            <li> <a href="#"> <i class="fa fa-pinterest-p" aria-hidden="true"></i> </a></li>
+            <!--<li> <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>-->
+            <li> 
+                <a href="https://twitter.com/sumanastech" target="_blank"> 
+                    <i class="fa fa-twitter" aria-hidden="true"></i> 
+                </a>
+            </li>
+            <!--<li> <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>-->
+            <li> 
+                <a href="https://plus.google.com/+SumanasTech" target="_blank"> 
+                    <i class="fa fa-google-plus" aria-hidden="true"></i> 
+                </a>
+            </li>
+            <li> 
+                <a href="https://pinterest.com/sumanastech/" target="_blank"> 
+                    <i class="fa fa-pinterest-p" aria-hidden="true"></i> 
+                </a>
+            </li>
         </ul>
     </div>     
 
