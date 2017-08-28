@@ -67,135 +67,37 @@ include 'head.php';
                     <p> <strong>Must Know:</strong> Photoshop, Coreldraw, Illustrator </p>
                     <p> <strong>Must Be:</strong> Extremely creative in designing. Should be up-to-date with the latest designing trends. Open to adapting to new designing tools and requirements.</p>
                     <h3> Apply Now </h3>
-                    <?php
-                    $name = $email = $phone = $source_to_find = $cover_letter = $file = $position = "";
-                    $nameErr = $emailErr = $phoneErr = $source_to_findErr = $cover_letterErr = $fileErr = "";
-                    $error = false;
-                    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                        if ($_POST["position"]) {
-                            $position = test_input($_POST["position"]);
-                        }
-                        if (empty($_POST["name"])) {
-                            $error = true;
-                            $nameErr = "This field is required";
-                        } else {
-                            $name = test_input($_POST["name"]);
-                            if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
-                                $nameErr = "Only letters and white space allowed";
-                            }
-                        }
-
-                        if (empty($_POST["email"])) {
-                            $error = true;
-                            $emailErr = "This field is required";
-                        } else {
-                            $email = test_input($_POST["email"]);
-                            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                                $emailErr = "Invalid email format";
-                            }
-                        }
-
-                        if (empty($_POST["phone"])) {
-                            $error = true;
-                            $phoneErr = "This field is required";
-                        } else {
-                            $phone = test_input($_POST["phone"]);
-                        }
-
-                        if (empty($_POST["source_to_find"])) {
-                            $error = true;
-                            $source_to_findErr = " This field is required";
-                        } else {
-                            $source_to_find = test_input($_POST["source_to_find"]);
-                        }
-
-                        if (empty($_POST["cover_letter"])) {
-                            $error = true;
-                            $cover_letterErr = "This field is required";
-                        } else {
-                            $cover_letter = test_input($_POST["cover_letter"]);
-                        }
-
-                        if (empty($_FILES['file'])) {
-                            $error = true;
-                            $fileErr = "This field is required";
-                        } else {
-                            $file_name = $_FILES ["file"] ["name"];
-                            $file_tmp = $_FILES ["file"] ["tmp_name"];
-                            $dir = "uploads/";
-                            $imageFileType = pathinfo($file, PATHINFO_EXTENSION);
-                            $expensions = array("jpeg", "jpg", "gif", "png");
-                            $file = $dir . basename($file_name);
-                            move_uploaded_file($file_tmp, $file);
-                            $success = "file uploaded successfully";
-                        }
-                        if (!$error && isset($_POST['submit']) && $position == 'UI/UX Designer') {
-                            if (isset($_POST['email'])) {
-                                $ToEmail = 'roobini@arkinfotec.com';
-                                $EmailSubject = 'Site contact form';
-                                $mailheader = "From: " . $email . "\r\n";
-                                $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
-                                $MESSAGE_BODY = "Position: " . $position . "";
-                                $MESSAGE_BODY = "Name: " . $name . "";
-                                $MESSAGE_BODY .= "Email: " . $email . "";
-                                $MESSAGE_BODY .= "Phone: " . $phone . "";
-                                $MESSAGE_BODY .= "How did you hear about us: " . $source_to_find . "";
-                                $MESSAGE_BODY .= "Cover Letter: " . nl2br($cover_letter) . "";
-                                $MESSAGE_BODY .= "File: " . $file . "";
-                                mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
-                            }
-                        }
-                    }
-
-                    function test_input($data) {
-                        $data = trim($data);
-                        $data = stripslashes($data);
-                        $data = htmlspecialchars($data);
-                        return $data;
-                    }
-                    ?>
-                    <form method="post" name="myform" enctype="multipart/form-data" action="careers.php">
+                    <form method="post" name="myform" enctype="multipart/form-data" id="contact_form1" action="submit-form.php"> 
                         <div class="row">
+                            <input type="hidden" class="form-control" name="position" value="UI/UX Designer">
                             <div class="form-group">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
-                                    <input type="hidden" class="form-control" name="position" value="UI/UX Designer">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input name="name" type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input name="email" type="text" class="form-control" placeholder="Email">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="name" value="<?php echo $name ?>" type="text" class="form-control" placeholder="Name">
-                                    <?php echo $nameErr; ?>
+                                    <input name="phone" type="text" class="form-control" placeholder="Phone">
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="email" value="<?php echo $email ?>" type="text" class="form-control" placeholder="Email">
-                                    <?php echo $emailErr; ?>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="phone" value="<?php echo $phone ?>" type="text" class="form-control" placeholder="Phone">
-                                    <?php echo $phoneErr; ?>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="source_to_find" value="<?php echo $source_to_find ?>" type="text" class="form-control" placeholder="How Did You Hear About Us">
-                                    <?php echo $source_to_findErr; ?>
+                                    <input name="source_to_find" type="text" class="form-control" placeholder="How Did You Hear About Us">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <textarea name="cover_letter" value="<?php echo $cover_letter ?>" cols="" rows="" class="form-control cover-letter" placeholder="Cover Letter"></textarea>
-                                    <?php echo $cover_letterErr; ?>
+                                    <textarea name="cover_letter" cols="" rows="" class="form-control cover-letter" placeholder="Cover Letter"></textarea>
                                 </div>
-                            </div>
-                            <div class="form-group">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <input name="file" value="<?php echo $file ?>" type="file" class="form-control file">
-                                    <?php echo $fileErr; ?>
+                                    <input name="file" type="file" class="form-control file">
                                 </div>
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button class="btn submit-btn" type="submit" value="submit" name="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+                            <button class="btn submit-btn" type="submit" value="submit1" name="submit1"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+                            <div id="msgSubmit" class="h4 text-center hide">Form Submitted Successfully!</div>
                         </div>
                     </form>
                 </div>
@@ -218,135 +120,37 @@ include 'head.php';
                     <p> <strong>Must Know:</strong>PHP Frameworks like Laravel, YII2, Angular JS and associated technologies</p>
                     <p> <strong>Must Be:</strong> Proficient in highest coding standards, Code optimization & logical thinking. Should quick adapt to newer technologies.</p>
                     <h3> Apply Now </h3>
-                    <?php
-                    $name = $email = $phone = $source_to_find = $cover_letter = $file = $position = "";
-                    $nameErr = $emailErr = $phoneErr = $source_to_findErr = $cover_letterErr = $fileErr = "";
-                    $error = false;
-                    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                        if ($_POST["position"]) {
-                            $position = test_input($_POST["position"]);
-                        }
-                        if (empty($_POST["name"])) {
-                            $error = true;
-                            $nameErr = "This field is required";
-                        } else {
-                            $name = input($_POST["name"]);
-                            if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
-                                $nameErr = "Only letters and white space allowed";
-                            }
-                        }
-
-                        if (empty($_POST["email"])) {
-                            $error = true;
-                            $emailErr = "This field is required";
-                        } else {
-                            $email = input($_POST["email"]);
-                            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                                $emailErr = "Invalid email format";
-                            }
-                        }
-
-                        if (empty($_POST["phone"])) {
-                            $error = true;
-                            $phoneErr = "This field is required";
-                        } else {
-                            $phone = input($_POST["phone"]);
-                        }
-
-                        if (empty($_POST["source_to_find"])) {
-                            $error = true;
-                            $source_to_findErr = " This field is required";
-                        } else {
-                            $source_to_find = input($_POST["source_to_find"]);
-                        }
-
-                        if (empty($_POST["cover_letter"])) {
-                            $error = true;
-                            $cover_letterErr = "This field is required";
-                        } else {
-                            $cover_letter = input($_POST["cover_letter"]);
-                        }
-
-                        if (empty($_FILES['file'])) {
-                            $error = true;
-                            $fileErr = "file is required";
-                        } else {
-                            $file_name = $_FILES ["file"] ["name"];
-                            $file_tmp = $_FILES ["file"] ["tmp_name"];
-                            $dir = "uploads/";
-                            $imageFileType = pathinfo($file, PATHINFO_EXTENSION);
-                            $expensions = array("jpeg", "jpg", "gif", "png");
-                            $file = $dir . basename($file_name);
-                            move_uploaded_file($file_tmp, $file);
-                            $success = "file uploaded successfully";
-                        }
-                        if (!$error && isset($_POST['submit']) && $position == 'PHP Developer') {
-                            if (isset($_POST['email'])) {
-                                $ToEmail = 'roobini@arkinfotec.com';
-                                $Email = 'Site contact form';
-                                $mailhead = "From: " . $email . "\r\n";
-                                $mailhead .= "Content-type: text/html; charset=iso-8859-1\r\n";
-                                $MESSAGE = "Position: " . $position . "";
-                                $MESSAGE = "Name: " . $name . "";
-                                $MESSAGE .= "Email: " . $email . "";
-                                $MESSAGE .= "Phone: " . $phone . "";
-                                $MESSAGE .= "How did you hear about us: " . $source_to_find . "";
-                                $MESSAGE .= "Cover Letter: " . nl2br($cover_letter) . "";
-                                $MESSAGE .= "File: " . $file . "";
-                                mail($ToEmail, $Email, $MESSAGE, $mailhead);
-                            }
-                        }
-                    }
-
-                    function input($data) {
-                        $data = trim($data);
-                        $data = stripslashes($data);
-                        $data = htmlspecialchars($data);
-                        return $data;
-                    }
-                    ?>
-                    <form method="post" name="myform" enctype="multipart/form-data" action="careers.php">
+                    <form method="post" name="myform" enctype="multipart/form-data" id="contact_form2">
                         <div class="row">
+                            <input type="hidden" class="form-control" name="position" value="PHP Developer">
                             <div class="form-group">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
-                                    <input type="hidden" class="form-control" name="position" value="PHP Developer">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input name="name" type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input name="email" type="text" class="form-control" placeholder="Email">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="name" value="<?php echo $name ?>" type="text" class="form-control" placeholder="Name">
-                                    <?php echo $nameErr; ?>
+                                    <input name="phone" type="text" class="form-control" placeholder="Phone">
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="email" value="<?php echo $email ?>" type="text" class="form-control" placeholder="Email">
-                                    <?php echo $emailErr; ?>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="phone" value="<?php echo $phone ?>" type="text" class="form-control" placeholder="Phone">
-                                    <?php echo $phoneErr; ?>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <input name="source_to_find" value="<?php echo $source_to_find ?>" type="text" class="form-control" placeholder="How Did You Hear About Us">
-                                    <?php echo $source_to_findErr; ?>
+                                    <input name="source_to_find" type="text" class="form-control" placeholder="How Did You Hear About Us">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <textarea name="cover_letter" value="<?php echo $cover_letter ?>" cols="" rows="" class="form-control cover-letter" placeholder="Cover Letter"></textarea>
-                                    <?php echo $cover_letterErr; ?>
+                                    <textarea name="cover_letter" cols="" rows="" class="form-control cover-letter" placeholder="Cover Letter"></textarea>
                                 </div>
-                            </div>
-                            <div class="form-group">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <input name="file" value="<?php echo $file ?>" type="file" class="form-control file">
-                                    <?php echo $fileErr; ?>
+                                    <input name="file" type="file" class="form-control file">
                                 </div>
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button class="btn submit-btn" type="submit" value="submit" name="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+                            <button class="btn submit-btn" type="submit" value="submit2" name="submit2"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+                            <div id="msgSubmit" class="h4 text-center hide">Form Submitted Successfully!</div>
                         </div>
                     </form>
                 </div>
@@ -369,135 +173,37 @@ include 'head.php';
                 <p> <strong>Must Know:</strong>People and employee handling techniques. Excellent oral and written communication</p>
                 <p> <strong>Must Be:</strong> Proficient in employee payroll management, client co-ordination, project management and  people handling.</p>
                 <h3> Apply Now </h3>
-                <?php
-                $name = $email = $phone = $source_to_find = $cover_letter = $file = $position = "";
-                $nameErr = $emailErr = $phoneErr = $source_to_findErr = $cover_letterErr = $fileErr = "";
-                $error = false;
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                    if ($_POST["position"]) {
-                        $position = test_input($_POST["position"]);
-                    }
-                    if (empty($_POST["name"])) {
-                        $error = true;
-                        $nameErr = "This field is required";
-                    } else {
-                        $name = testinput($_POST["name"]);
-                        if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
-                            $nameErr = "Only letters and white space allowed";
-                        }
-                    }
-
-                    if (empty($_POST["email"])) {
-                        $error = true;
-                        $emailErr = "This field is required";
-                    } else {
-                        $email = testinput($_POST["email"]);
-                        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                            $emailErr = "Invalid email format";
-                        }
-                    }
-
-                    if (empty($_POST["phone"])) {
-                        $error = true;
-                        $phoneErr = "This field is required";
-                    } else {
-                        $phone = testinput($_POST["phone"]);
-                    }
-
-                    if (empty($_POST["source_to_find"])) {
-                        $error = true;
-                        $source_to_findErr = " This field is required";
-                    } else {
-                        $source_to_find = testinput($_POST["source_to_find"]);
-                    }
-
-                    if (empty($_POST["cover_letter"])) {
-                        $error = true;
-                        $cover_letterErr = "This field is required";
-                    } else {
-                        $cover_letter = testinput($_POST["cover_letter"]);
-                    }
-
-                    if (empty($_FILES['file'])) {
-                        $error = true;
-                        $fileErr = "file is required";
-                    } else {
-                        $file_name = $_FILES ["file"] ["name"];
-                        $file_tmp = $_FILES ["file"] ["tmp_name"];
-                        $dir = "uploads/";
-                        $imageFileType = pathinfo($file, PATHINFO_EXTENSION);
-                        $expensions = array("jpeg", "jpg", "gif", "png");
-                        $file = $dir . basename($file_name);
-                        move_uploaded_file($file_tmp, $file);
-                        $success = "file uploaded successfully";
-                    }
-                    if (!$error && isset($_POST['submit']) && $position == 'HR Generalist') {
-                        if (isset($_POST['email'])) {
-                            $ToEmail = 'roobini@arkinfotec.com';
-                            $EmailSubject = 'Site contact form';
-                            $mailheader = "From: " . $email . "\r\n";
-                            $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
-                            $MESSAGE_BODY = "Position: " . $position . "";
-                            $MESSAGE_BODY = "Name: " . $name . "";
-                            $MESSAGE_BODY .= "Email: " . $email . "";
-                            $MESSAGE_BODY .= "Phone: " . $phone . "";
-                            $MESSAGE_BODY .= "How did you hear about us: " . $source_to_find . "";
-                            $MESSAGE_BODY .= "Cover Letter: " . nl2br($cover_letter) . "";
-                            $MESSAGE_BODY .= "File: " . $file . "";
-                            mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader);
-                        }
-                    }
-                }
-
-                function testinput($data) {
-                    $data = trim($data);
-                    $data = stripslashes($data);
-                    $data = htmlspecialchars($data);
-                    return $data;
-                }
-                ?>
-                <form method="post" name="myform" enctype="multipart/form-data" action="careers.php">
+                <form method="post" name="myform" enctype="multipart/form-data" id="contact_form3">
                     <div class="row">
+                        <input type="hidden" class="form-control" name="position" value="HR Generalist">
                         <div class="form-group">
-                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
-                                <input type="hidden" class="form-control" name="position" value="HR Generalist">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <input name="name" type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <input name="email" type="text" class="form-control" placeholder="Email">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <input name="name" value="<?php echo $name ?>" type="text" class="form-control" placeholder="Name">
-                                <?php echo $nameErr; ?>
+                                <input name="phone" type="text" class="form-control" placeholder="Phone">
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <input name="email" value="<?php echo $email ?>" type="text" class="form-control" placeholder="Email">
-                                <?php echo $emailErr; ?>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <input name="phone" value="<?php echo $phone ?>" type="text" class="form-control" placeholder="Phone">
-                                <?php echo $phoneErr; ?>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <input name="source_to_find" value="<?php echo $source_to_find ?>" type="text" class="form-control" placeholder="How Did You Hear About Us">
-                                <?php echo $source_to_findErr; ?>
+                                <input name="source_to_find" type="text" class="form-control" placeholder="How Did You Hear About Us">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <textarea name="cover_letter" value="<?php echo $cover_letter ?>" cols="" rows="" class="form-control cover-letter" placeholder="Cover Letter"></textarea>
-                                <?php echo $cover_letterErr; ?>
+                                <textarea name="cover_letter" cols="" rows="" class="form-control cover-letter" placeholder="Cover Letter"></textarea>
                             </div>
-                        </div>
-                        <div class="form-group">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <input name="file" value="<?php echo $file ?>" type="file" class="form-control file">
-                                <?php echo $fileErr; ?>
+                                <input name="file" type="file" class="form-control file">
                             </div>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn submit-btn" type="submit" value="submit" name="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+                        <button class="btn submit-btn" type="submit" value="submit3" name="submit3"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+                        <div id="msgSubmit" class="h4 text-center hide">Form Submitted Successfully!</div>
                     </div>
                 </form>
             </div>
@@ -524,6 +230,251 @@ include 'head.php';
 <script src="js/owl.carousel.min.js"></script> 
 <script type="text/javascript" src="js/jquery.es-drawermenu.js"></script> 
 <script src="js/metisMenu.js"></script> 
+<script src="js/bootstrapValidator.min.js"></script> 
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#contact_form1').bootstrapValidator({
+            // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                name: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+                        emailAddress: {
+                            message: ' '
+                        }
+                    }
+                },
+                phone: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+                    }
+                },
+                source_to_find: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                cover_letter: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                file: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+            }
+        }).on('submit1', function (e) {
+            if (e.isDefaultPrevented()) {
+                console.log('error');
+            } else {
+                e.preventDefault();
+                submitForm();
+            }
+        });
+        
+        $('#contact_form2').bootstrapValidator({
+            // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                name: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+                        emailAddress: {
+                            message: ' '
+                        }
+                    }
+                },
+                phone: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+                    }
+                },
+                source_to_find: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                cover_letter: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                file: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+            }
+        }).on('submit2', function (e) {
+            if (e.isDefaultPrevented()) {
+                console.log('error');
+            } else {
+                e.preventDefault();
+                submitForm();
+            }
+        });
+        
+        $('#contact_form3').bootstrapValidator({
+            // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                name: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+                        emailAddress: {
+                            message: ' '
+                        }
+                    }
+                },
+                phone: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+                    }
+                },
+                source_to_find: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                cover_letter: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                file: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+            }
+        }).on('submit3', function (e) {
+            if (e.isDefaultPrevented()) {
+                console.log('error');
+            } else {
+                e.preventDefault();
+                submitForm();
+            }
+        });
+
+    });
+
+    function submitForm() {
+        // Initiate Variables With Form Content
+        var datastring1 = $("#contact_form1").serialize();
+        var datastring2 = $("#contact_form2").serialize();
+        var datastring3 = $("#contact_form3").serialize();
+
+        $.ajax({
+            type: "POST",
+            url: "submit-form.php",
+            data: datastring1,
+            dataType: "json",
+            success: function (text) {
+                if (text == "success") {
+                    formSuccess();
+                }
+            }
+        });
+        
+        $.ajax({
+            type: "POST",
+            url: "submit-form.php",
+            data: datastring2,
+            dataType: "json",
+            success: function (text) {
+                if (text == "success") {
+                    formSuccess();
+                }
+            }
+        });
+        
+        $.ajax({
+            type: "POST",
+            url: "submit-form.php",
+            data: datastring3,
+            dataType: "json",
+            success: function (text) {
+                if (text == "success") {
+                    formSuccess();
+                }
+            }
+        });
+    }
+
+    function formSuccess() {
+        $("#msgSubmit").removeClass("hide");
+        setTimeout(function () {
+            $('#msgSubmit').addClass('hide');
+        }, 1000);
+    }
+
+</script>
 <script type="text/javascript">
 
 

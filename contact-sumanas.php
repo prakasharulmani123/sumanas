@@ -160,7 +160,7 @@ include 'head.php';
                         }
                     },
                 }
-            }).on('submit', function (e) {
+            }).on('contactus', function (e) {
                 if (e.isDefaultPrevented()) {
                     console.log('error');
                 } else {
