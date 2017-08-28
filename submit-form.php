@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["submit1"] == 'submit1') {
         $mailheader .= "Content-Type: multipart/mixed; boundary=\"" . $uid . "\"\r\n\r\n";
         $mailheader .= "This is a multi-part message in MIME format.\r\n";
         $mailheader .= "--" . $uid . "\r\n";
-        $mailheader .= "Content-Type: application/octet-stream"; 
+        $mailheader .= "Content-Type: application/octet-stream";
         $mailheader .= "Content-type:text/plain; charset=iso-8859-1\r\n";
         $mailheader .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
         $mailheader .= "--" . $uid . "\r\n";
@@ -105,8 +105,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["submit2"] == 'submit2') {
         $ToEmail = 'roobini@arkinfotec.com';
         $EmailSubject = 'Site contact form';
         $mailheader = "From: " . $email . "\r\n";
-        $mailheader .= "Content-type: text/html;
-                charset = iso-8859-1\r\n";
+        $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
+        $mailheader .= "Content-Transfer-Encoding: base64\r\n";
+        $mailheader .= "Content-Disposition: attachment";
+        $mailheader .= "MIME-Version: 1.0\r\n";
+        $mailheader .= "Content-Type: multipart/mixed";
+        $mailheader .= "Content-Type: multipart/mixed; boundary=\"" . $uid . "\"\r\n\r\n";
+        $mailheader .= "This is a multi-part message in MIME format.\r\n";
+        $mailheader .= "--" . $uid . "\r\n";
+        $mailheader .= "Content-Type: application/octet-stream";
+        $mailheader .= "Content-type:text/plain; charset=iso-8859-1\r\n";
+        $mailheader .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+        $mailheader .= "--" . $uid . "\r\n";
         $MESSAGE_BODY = "Position: " . $position . "";
         $MESSAGE_BODY = "Name: " . $name . "";
         $MESSAGE_BODY .= "Email: " . $email . "";
@@ -143,8 +153,18 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST" && $_POST ["submit3   "] == 'submit3')
         $ToEmail = 'roobini@arkinfotec.com';
         $EmailSubject = 'Site contact form';
         $mailheader = "From: " . $email . "\r\n";
-        $mailheader .= "Content-type: text/html;
-                charset = iso-8859-1\r\n";
+        $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
+        $mailheader .= "Content-Transfer-Encoding: base64\r\n";
+        $mailheader .= "Content-Disposition: attachment";
+        $mailheader .= "MIME-Version: 1.0\r\n";
+        $mailheader .= "Content-Type: multipart/mixed";
+        $mailheader .= "Content-Type: multipart/mixed; boundary=\"" . $uid . "\"\r\n\r\n";
+        $mailheader .= "This is a multi-part message in MIME format.\r\n";
+        $mailheader .= "--" . $uid . "\r\n";
+        $mailheader .= "Content-Type: application/octet-stream";
+        $mailheader .= "Content-type:text/plain; charset=iso-8859-1\r\n";
+        $mailheader .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+        $mailheader .= "--" . $uid . "\r\n";
         $MESSAGE_BODY = "Position: " . $position . "";
         $MESSAGE_BODY = "Name: " . $name . "";
         $MESSAGE_BODY .= "Email: " . $email . "";
@@ -156,7 +176,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST" && $_POST ["submit3   "] == 'submit3')
             echo "success";
             exit;
         } else {
-            echo "invalid     ";
+            echo "invalid";
             exit;
         }
     }
