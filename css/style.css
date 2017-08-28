@@ -1110,7 +1110,7 @@ header {
 .section7 {
 	position:relative;
 	background:url(../images/sectionbg7.jpg) #e5e5e5 right top no-repeat;
-	background-size:contain;
+	background-size:cover;
 }
 .section8 {
 	width:100%;
@@ -1373,12 +1373,14 @@ header {
 	margin-bottom:15px;
 }
 .team-hobby {
-	position:absolute;
-	right:0px;
+	position: absolute;
+	right: 0px;
+	width: 105px;
+	font-size: 13px;
 }
 .team-hobby ul {
 	margin:0px;
-	padding:15px;
+	padding:10px 10px;
 }
 .team-hobby ul li {
 	list-style:none;
@@ -1388,8 +1390,8 @@ header {
 .team-name {
 	background:#fff000;
 	padding:10px;
-	font-weight:200;
-	font-size:25px;
+	font-weight:300;
+	font-size:20px;
 	color:#222222;
 	bottom:0px;
 	right:0px;
@@ -1397,7 +1399,7 @@ header {
 	text-align:right;
 }
 .team-name span {
-	font-size:20px;
+	font-size:16px;
 }
 .footer-contact-cont {
 	width:100%;
@@ -2794,6 +2796,7 @@ body {
 	border-bottom:#d2a41e solid 1px;
 	padding:0px 0px 5px 0px;
 	font-size:15px;
+	box-shadow:none;
 }
  .contact-right .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
  color: #444444;

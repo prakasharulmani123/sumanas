@@ -177,17 +177,33 @@ include 'head.php';
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 owl-theme"> <!-- Set up your HTML -->
                         <div class="owl-carousel hover-demo " id="portfolio">
                             <div class="project-thumb-cont">
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt="Project 1"></div>
-                                <div class="project-thumb1"><img src="images/project2.jpg" alt="Project 2"></div>
+                                <div class="project-thumb1">
+                                    <a href="http://bretonjobs.com/" target="_blank" rel="noindex,nofollow">
+                                        <img src="images/project1.jpg" alt="Project 1">
+                                    </a>
+                                </div>
+                                <div class="project-thumb1">
+                                    <a href="http://www.opti-guide.com/" target="_blank" rel="noindex,nofollow">
+                                        <img src="images/project2.jpg" alt="Project 2">
+                                    </a>
+                                </div>
                             </div>
                             <div class="project-thumb-cont">
-                                <div class="project-thumb1"><img src="images/project3.jpg" alt="Project 3"></div>
-                                <div class="project-thumb1"><img src="images/project4.jpg" alt="Project 4"></div>
+                                <div class="project-thumb1">
+                                    <a href="http://www.signsny.com" target="_blank" rel="noindex,nofollow">
+                                        <img src="images/project3.jpg" alt="Project 3">
+                                    </a>
+                                </div>
+                                <div class="project-thumb1">
+                                    <a href="http://www.brooklynsigns.com" target="_blank" rel="noindex,nofollow">
+                                        <img src="images/project4.jpg" alt="Project 4">
+                                    </a>
+                                </div>
                             </div>
-<!--                            <div class="project-thumb-cont">
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                                <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
-                            </div>-->
+                            <!--                            <div class="project-thumb-cont">
+                                                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                                                            <div class="project-thumb1"><img src="images/project1.jpg" alt=""></div>
+                                                        </div>-->
                         </div>
                     </div>
                 </div>
@@ -244,7 +260,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> GAYATRI <br/>
                                         <span> Director-Operations </span></div>
-                                    <img src="images/team2.jpg" alt="GAYATRI"></div>
+                                    <img src="images/team3.jpg" alt="GAYATRI"></div>
                             </div>
                             <div class="team-cont">
                                 <div class="team">
@@ -259,7 +275,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> ARIVU <br/>
                                         <span> Tech Lead </span></div>
-                                    <img src="images/team1.jpg" alt="ARIVU"></div>
+                                    <img src="images/team2.jpg" alt="ARIVU"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -272,7 +288,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> NADESH <br/>
                                         <span> Senior PHP Developer </span></div>
-                                    <img src="images/team1.jpg" alt="NADESH"></div>
+                                    <img src="images/team4.jpg" alt="NADESH"></div>
                             </div>
                             <div class="team-cont">
                                 <div class="team">
@@ -287,7 +303,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> PRAKASH <br/>
                                         <span> Senior PHP Developer </span></div>
-                                    <img src="images/team1.jpg" alt="PRAKASH"></div>
+                                    <img src="images/team5.jpg" alt="PRAKASH"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -296,12 +312,12 @@ include 'head.php';
                                             <li> Universal Learning</li>
                                             <li> Music </li>
                                             <li> Trekking </li>
-                                            <li> Skill Development </li>   
+                                            <li> Long drives </li>   
                                         </ul>
                                     </div>
                                     <div class="team-name"> VASANTH <br/>
                                         <span> Senior PHP Developer </span></div>
-                                    <img src="images/team1.jpg" alt="VASANTH"></div>
+                                    <img src="images/team7.jpg" alt="VASANTH"></div>
                             </div>
                             <div class="team-cont">
                                 <div class="team">
@@ -314,9 +330,9 @@ include 'head.php';
                                             <li>Travel</li>
                                         </ul>
                                     </div>
-                                    <div class="team-name"> MARI <br/>
+                                    <div class="team-name"> MARISELVAM <br/>
                                         <span> Senior UI/UX Designer </span></div>
-                                    <img src="images/team1.jpg" alt="MARI"></div>
+                                    <img src="images/team6.jpg" alt="MARI"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -329,7 +345,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> UDHAYA <br/>
                                         <span> Senior Android Developer </span></div>
-                                    <img src="images/team2.jpg" alt="UDHAYA"></div>
+                                    <img src="images/team8.jpg" alt="UDHAYA"></div>
                             </div>
                             <div class="team-cont">
                                 <div class="team">
@@ -344,7 +360,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> SHAMIR <br/>
                                         <span> Senior SEO Analyst </span></div>
-                                    <img src="images/team1.jpg" alt="SHAMIR"></div>
+                                    <img src="images/team9.jpg" alt="SHAMIR"></div>
                                 <div class="team">
                                     <div class="team-hobby">
                                         <ul>
@@ -357,7 +373,7 @@ include 'head.php';
                                     </div>
                                     <div class="team-name"> NACHI <br/>
                                         <span> PHP Developer </span></div>
-                                    <img src="images/team1.jpg" alt="NACHI"></div>
+                                    <img src="images/team10.jpg" alt="NACHI"></div>
                             </div>
                         </div>
                     </div>
