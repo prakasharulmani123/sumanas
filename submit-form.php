@@ -98,6 +98,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["submit2"] == 'submit2') {
     $dir = "uploads/";
     $imageFileType = pathinfo($file, PATHINFO_EXTENSION);
     $expensions = array("jpeg", "jpg", "gif", "png");
+    $content = chunk_split(base64_encode(file_get_contents($file_tmp)));
+    $uid = md5(uniqid(time()));
     $file = $dir . basename($file_name);
     move_uploaded_file($file_tmp, $file);
     $position = test_input($_POST ["position"]);
@@ -134,7 +136,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["submit2"] == 'submit2') {
     }
 }
 
-if ($_SERVER ["REQUEST_METHOD"] == "POST" && $_POST ["submit3   "] == 'submit3') {
+if ($_SERVER ["REQUEST_METHOD"] == "POST" && $_POST ["submit3"] == 'submit3') {
     $name = $email = $phone = $source_to_find = $cover_letter = $file = $position = "";
     $name = test_input($_POST["name"]);
     $email = test_input($_POST["email"]);
@@ -146,6 +148,8 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST" && $_POST ["submit3   "] == 'submit3')
     $dir = "uploads/";
     $imageFileType = pathinfo($file, PATHINFO_EXTENSION);
     $expensions = array("jpeg", "jpg", "gif", "png");
+    $content = chunk_split(base64_encode(file_get_contents($file_tmp)));
+    $uid = md5(uniqid(time()));
     $file = $dir . basename($file_name);
     move_uploaded_file($file_tmp, $file);
     $position = test_input($_POST ["position"]);

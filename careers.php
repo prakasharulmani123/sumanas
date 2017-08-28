@@ -67,7 +67,7 @@ include 'head.php';
                     <p> <strong>Must Know:</strong> Photoshop, Coreldraw, Illustrator </p>
                     <p> <strong>Must Be:</strong> Extremely creative in designing. Should be up-to-date with the latest designing trends. Open to adapting to new designing tools and requirements.</p>
                     <h3> Apply Now </h3>
-                    <form method="post" name="myform" enctype="multipart/form-data" id="contact_form1" action="submit-form.php"> 
+                    <form method="post" name="myform" enctype="multipart/form-data" id="contact_form1" autocomplete="off"> 
                         <div class="row">
                             <input type="hidden" class="form-control" name="position" value="UI/UX Designer">
                             <div class="form-group">
@@ -120,7 +120,7 @@ include 'head.php';
                     <p> <strong>Must Know:</strong>PHP Frameworks like Laravel, YII2, Angular JS and associated technologies</p>
                     <p> <strong>Must Be:</strong> Proficient in highest coding standards, Code optimization & logical thinking. Should quick adapt to newer technologies.</p>
                     <h3> Apply Now </h3>
-                    <form method="post" name="myform" enctype="multipart/form-data" id="contact_form2">
+                    <form method="post" name="myform" enctype="multipart/form-data" id="contact_form2" autocomplete="off">
                         <div class="row">
                             <input type="hidden" class="form-control" name="position" value="PHP Developer">
                             <div class="form-group">
@@ -173,7 +173,7 @@ include 'head.php';
                 <p> <strong>Must Know:</strong>People and employee handling techniques. Excellent oral and written communication</p>
                 <p> <strong>Must Be:</strong> Proficient in employee payroll management, client co-ordination, project management and  people handling.</p>
                 <h3> Apply Now </h3>
-                <form method="post" name="myform" enctype="multipart/form-data" id="contact_form3">
+                <form method="post" name="myform" enctype="multipart/form-data" id="contact_form3" autocomplete="off">
                     <div class="row">
                         <input type="hidden" class="form-control" name="position" value="HR Generalist">
                         <div class="form-group">
