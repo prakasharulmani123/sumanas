@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["contactus"] == 'contactus') 
         $MESSAGE_BODY .= "Phone: " . $phone . "\n";
         $MESSAGE_BODY .= "Subject: " . $subject . "\n";
         $MESSAGE_BODY .= "Message: " . nl2br($message) . "\n";
-        if (@mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader)) {
+        if (mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader)) {
             echo "success";
             exit;
         } else {
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["submit1"] == 'submit1') {
         $MESSAGE_BODY .= "How did you hear about us: " . $source_to_find . "";
         $MESSAGE_BODY .= "Cover Letter: " . nl2br($cover_letter) . "";
         $MESSAGE_BODY .= "File: " . $file . "";
-        if (@mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader)) {
+        if (mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader)) {
             echo "success";
             exit;
         } else {
@@ -126,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["submit2"] == 'submit2') {
         $MESSAGE_BODY .= "How did you hear about us: " . $source_to_find . "";
         $MESSAGE_BODY .= "Cover Letter: " . nl2br($cover_letter) . "";
         $MESSAGE_BODY .= "File: " . $file . "";
-        if (@mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader)) {
+        if (mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader)) {
             echo "success";
             exit;
         } else {
@@ -176,7 +176,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST" && $_POST ["submit3"] == 'submit3') {
         $MESSAGE_BODY .= "How did you hear about us: " . $source_to_find . "";
         $MESSAGE_BODY .= "Cover Letter: " . nl2br($cover_letter) . "";
         $MESSAGE_BODY .= "File: " . $file . "";
-        if (@mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader)) {
+        if (mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader)) {
             echo "success";
             exit;
         } else {

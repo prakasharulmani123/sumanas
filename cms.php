@@ -241,10 +241,10 @@ include 'head.php';
                                     </blockquote>
                                 </div>
                                 <div class="item">
-                                    <div class="profile-circle"> <img src="images/Daniel.jpg" alt="Daniel"></div>
+                                    <div class="profile-circle"> <img src="images/Daniel.jpg" alt="Daniel Murphy"></div>
                                     <blockquote>
                                         <p>Sumanas Technologies have an experienced team of developers and designers.  We have used them for a range of services including laravel application development, API and middleware development, front end UX design and development, Wordpress and more!</p>
-                                        <p> <strong> -Daniel </strong></p>
+                                        <p> <strong> -Daniel Murphy</strong></p>
                                     </blockquote>
                                 </div>
                             </div>

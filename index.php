@@ -139,10 +139,10 @@ include 'head.php';
                                 </div>
                             </div>
                             <div class="client-cont">
-                                <p><img src="images/Daniel.jpg" alt="Daniel"></p>
-                                <p><a href="#"> Daniel </a></p>
+                                <p><img src="images/Daniel.jpg" alt="Daniel Murphy"></p>
+                                <p><a href="#"> Daniel Murphy</a></p>
                                 <div class="client-hover">
-                                    <p><strong> Daniel </strong></p>
+                                    <p><strong> Daniel Murphy</strong></p>
                                     <p> Sumanas Technologies have an experienced team of developers and designers.  We have used them for a range of services including laravel application development, API and middleware development, front end UX design and development, Wordpress and more! </p>
                                 </div>
                             </div>
