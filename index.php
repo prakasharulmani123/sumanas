@@ -34,7 +34,7 @@ include 'head.php';
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8 col-lg-offset-1">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-lg-4 col-lg-4  sevice-part sevice-part1 wow fadeInRightBig" data-wow-delay="0.2s">
+                        <div class="col-xs-12 col-sm-4 col-lg-4 col-lg-4  sevice-part sevice-part1">
                             <h3> MOBILE App Development </h3>
                             <p> Find the finest of services in mobile application development, compatible with IOS, Android
                                 and windows. All that you wanted is at the tap of your finger</p>
@@ -42,13 +42,13 @@ include 'head.php';
                         </div>
                         <div class="col-xs-12 col-sm-4 col-lg-4 col-lg-4  sevice-part ">
                             <div class="row">
-                                <div class="sevice-part2 wow fadeInUp" data-wow-delay="1s">
+                                <div class="sevice-part2">
                                     <h3> Web Design </h3>
                                     <p> Your one stop-shop for great website designs, exotic logos, and awesome Graphic
                                         Designs. Ask for more and you will get more! </p>
                                     <p><a href="<?php echo "ui-ux-design.php"; ?>" class="readmore1"> Read More... </a></p>
                                 </div>
-                                <div class="sevice-part3 wow fadeInDown" data-wow-delay="1s">
+                                <div class="sevice-part3">
                                     <h3> Digital
                                         Marketing </h3>
                                     <p> This is the platformthat's makes your business catch the spotlight! We help your
@@ -60,7 +60,7 @@ include 'head.php';
                         </div>
                         <div class="col-xs-12 col-sm-4 col-lg-4 col-lg-4  sevice-part">
                             <div class="row">
-                                <div class="sevice-part4 wow fadeInLeft" data-wow-delay="1.8s">
+                                <div class="sevice-part4">
                                     <h3>Web
                                         Development</h3>
                                     <p> We build custom applications that are tailor-made to fit your requirements. Have an
@@ -68,7 +68,7 @@ include 'head.php';
                                     <p><a href="<?php echo "website-development.php"; ?>" class="readmore1"> Read More... </a>
                                     </p>
                                 </div>
-                                <div class="sevice-part5 wow fadeInRight" data-wow-delay="1.8s">
+                                <div class="sevice-part5">
                                     <h3> DATA Analytics </h3>
                                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod incididunt ut
                                         labore .Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
